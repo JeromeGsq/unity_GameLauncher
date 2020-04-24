@@ -44,3 +44,6 @@ TagManager:
   - name: Splash
     uniqueID: 135598701
     locked: 0
+  - name: Menu
+    uniqueID: 2857919333
+    locked: 0

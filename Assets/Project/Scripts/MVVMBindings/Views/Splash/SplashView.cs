@@ -3,11 +3,13 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using Toastapp.MVVM;
 using UnityEngine;
+using UnityEngine.UI;
 
 [RequireComponent(typeof(SplashViewModel))]
 public class SplashView : BaseView<SplashViewModel>
 {
     private bool hasFocus;
+    private Material blurPanelMaterial;
 
     [SerializeField]
     private DOTweenAnimation fadeAnimation;
@@ -15,14 +17,32 @@ public class SplashView : BaseView<SplashViewModel>
     [SerializeField]
     private DOTweenAnimation scaleAnimation;
 
+    [Space]
+
+    [SerializeField]
+    private Image blurPanel;
+
+    [Space]
+
     [SerializeField]
     private List<GameObject> particleSystems;
+
+    [Space]
 
     [SerializeField]
     private AudioClip unlockSound;
 
     [SerializeField]
     private AudioClip unlockReverseSound;
+
+    protected override void Awake()
+    {
+        base.Awake();
+        this.CanvasGroup.alpha = 1;
+
+        this.blurPanelMaterial = this.blurPanel?.material;
+        this.blurPanelMaterial.SetBlurValue(0, 0);
+    }
 
     protected override void OnEnable()
     {
@@ -43,6 +63,8 @@ public class SplashView : BaseView<SplashViewModel>
             this.scaleAnimation?.tween?.PlayBackwards();
 
             AudioManager.Instance.PlayOneShot(this.unlockReverseSound);
+
+            this.blurPanelMaterial.SetBlurValue(1);
 
             this.DelaySeconds(() =>
             {
@@ -67,7 +89,6 @@ public class SplashView : BaseView<SplashViewModel>
             AudioManager.Instance.PlayMove();
         }
 
-
         if (Input.GetKeyDown(KeyCode.Space))
         {
             this.hasFocus = false;
@@ -81,6 +102,8 @@ public class SplashView : BaseView<SplashViewModel>
             this.scaleAnimation?.tween?.PlayForward();
 
             AudioManager.Instance.PlayOneShot(this.unlockSound);
+
+            this.blurPanelMaterial.SetBlurValue(16, color: new Color(0.3f, 0.3f, 0.3f));
 
             NavigationService.Get.ShowViewModel(typeof(MenuViewModel), hidePreviousView: false);
         }
