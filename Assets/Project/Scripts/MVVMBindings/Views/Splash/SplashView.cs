@@ -17,6 +17,9 @@ public class SplashView : BaseView<SplashViewModel>
     [SerializeField]
     private DOTweenAnimation scaleAnimation;
 
+    [SerializeField]
+    private DOTweenAnimation unlockAnimation;
+
     [Space]
 
     [SerializeField]
@@ -61,6 +64,7 @@ public class SplashView : BaseView<SplashViewModel>
 
             this.fadeAnimation?.tween?.PlayBackwards();
             this.scaleAnimation?.tween?.PlayBackwards();
+            this.unlockAnimation?.tween?.PlayBackwards();
 
             AudioManager.Instance.PlayOneShot(this.unlockReverseSound);
 
@@ -100,6 +104,7 @@ public class SplashView : BaseView<SplashViewModel>
 
             this.fadeAnimation?.tween?.PlayForward();
             this.scaleAnimation?.tween?.PlayForward();
+            this.unlockAnimation?.tween?.PlayForward();
 
             AudioManager.Instance.PlayOneShot(this.unlockSound);
 

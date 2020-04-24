@@ -9,7 +9,7 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: BlurUI
   m_Shader: {fileID: 4800000, guid: 21d0751a8b71df84a887f1f0e08a8691, type: 3}
-  m_ShaderKeywords: IS_BLUR_ALPHA_MASKED IS_SPRITE_VISIBLE
+  m_ShaderKeywords: IS_BLUR_ALPHA_MASKED
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -66,7 +66,7 @@ Material:
     - _Glossiness: 0.5
     - _GlossyReflections: 1
     - _IsAlphaMasked: 1
-    - _IsSpriteVisible: 1
+    - _IsSpriteVisible: 0
     - _Metallic: 0
     - _Mode: 0
     - _OcclusionStrength: 1
