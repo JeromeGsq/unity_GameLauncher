@@ -29,11 +29,6 @@ public class SplashView : BaseView<SplashViewModel>
     [Space]
 
     [SerializeField]
-    private List<GameObject> particleSystems;
-
-    [Space]
-
-    [SerializeField]
     private AudioClip unlockSound;
 
     [SerializeField]

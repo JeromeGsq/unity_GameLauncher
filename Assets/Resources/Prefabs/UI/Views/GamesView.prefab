@@ -316,7 +316,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 0}
   m_AnchoredPosition: {x: 0, y: 20}
-  m_SizeDelta: {x: -200, y: 50}
+  m_SizeDelta: {x: -40, y: 50}
   m_Pivot: {x: 0.5, y: 0}
 --- !u!222 &4093355576058714291
 CanvasRenderer:
@@ -344,7 +344,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: '<sprite=12> : Launch game      <sprite=23> : Open details'
+  m_text: '<sprite=81> : Select      <sprite=12> : Launch      <sprite=23> : Details'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 0d71dff95ff36304db56f99f29d63c56, type: 2}
   m_sharedMaterial: {fileID: 8383903164820911919, guid: 0d71dff95ff36304db56f99f29d63c56,
@@ -414,10 +414,10 @@ MonoBehaviour:
   m_margin: {x: 10, y: 10, z: 10, w: 10}
   m_textInfo:
     textComponent: {fileID: 8108739796005024603}
-    characterCount: 37
+    characterCount: 43
     spriteCount: 0
-    spaceCount: 12
-    wordCount: 5
+    spaceCount: 18
+    wordCount: 4
     linkCount: 0
     lineCount: 1
     pageCount: 1

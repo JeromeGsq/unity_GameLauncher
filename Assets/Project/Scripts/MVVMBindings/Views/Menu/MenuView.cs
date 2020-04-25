@@ -1,5 +1,6 @@
 using DG.Tweening;
 using InControl;
+using System.Diagnostics;
 using Toastapp.MVVM;
 using UnityEngine;
 
@@ -16,6 +17,11 @@ public class MenuView : BaseView<MenuViewModel>
 
     [SerializeField]
     private DOTweenAnimation fadeAnimation;
+
+    [Space]
+
+    [SerializeField]
+    private GameObject shutdownPanel;
 
     protected override void Awake()
     {
@@ -61,6 +67,7 @@ public class MenuView : BaseView<MenuViewModel>
         this.gamesView.gameObject.SetActive(true);
         this.appsView.gameObject.SetActive(false);
         this.settingsView.gameObject.SetActive(false);
+        this.shutdownPanel.SetActive(false);
     }
 
     public void ShowAppsView()
@@ -68,6 +75,7 @@ public class MenuView : BaseView<MenuViewModel>
         this.gamesView.gameObject.SetActive(false);
         this.appsView.gameObject.SetActive(true);
         this.settingsView.gameObject.SetActive(false);
+        this.shutdownPanel.SetActive(false);
     }
 
     public void ShowSettingsView()
@@ -75,6 +83,12 @@ public class MenuView : BaseView<MenuViewModel>
         this.gamesView.gameObject.SetActive(false);
         this.appsView.gameObject.SetActive(false);
         this.settingsView.gameObject.SetActive(true);
+        this.shutdownPanel.SetActive(false);
+    }
+
+    public void ShowShutdownPanel()
+    {
+        this.shutdownPanel.SetActive(true);
     }
 
     public void Lock()
@@ -88,5 +102,10 @@ public class MenuView : BaseView<MenuViewModel>
             NavigationService.Get.CloseViewModel(this.settingsView.ViewModel);
             this.ViewModel.CloseViewModel();
         });
+    }
+
+    public void Shutdown()
+    {
+        Process.Start("shutdown", "/s /t 0");
     }
 }

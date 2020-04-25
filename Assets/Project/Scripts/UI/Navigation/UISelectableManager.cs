@@ -38,8 +38,12 @@ public class UISelectableManager : MonoBehaviour
             this.focusedSelectable = this.GetComponentInChildren<UISelectable>();
             this.OnButtonFocusChanged?.Invoke(this.FocusedButton);
         }
+    }
 
+    private void OnEnable()
+    {
         this.DelaySeconds(() => this.canMove = true, 0.2f, true);
+        this.OnButtonFocusChanged?.Invoke(this.FocusedButton);
     }
 
     private void Update()

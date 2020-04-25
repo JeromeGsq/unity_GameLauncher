@@ -4,6 +4,7 @@ using UnityEngine;
 using Newtonsoft.Json;
 using UnityEngine.Networking;
 using UnityWeld.Binding;
+using InControl;
 
 public abstract class MainViewModel : BaseViewModel
 {
@@ -11,6 +12,7 @@ public abstract class MainViewModel : BaseViewModel
     private float longitude = 3.0667f;
 
     private string clock;
+    private string devicesInfoCount;
     private Weather weather;
 
     [Binding]
@@ -28,6 +30,13 @@ public abstract class MainViewModel : BaseViewModel
     }
 
     [Binding]
+    public string DevicesInfoCount
+    {
+        get => this.devicesInfoCount;
+        set => this.Set(ref this.devicesInfoCount, value, nameof(this.DevicesInfoCount));
+    }
+
+    [Binding]
     public string CurrentDateTime => DateTime.Now.ToString("dddd, d MMMM yyyy");
 
     [Binding]
@@ -37,6 +46,26 @@ public abstract class MainViewModel : BaseViewModel
     {
         this.InvokeRepeating("UpdateTimers", 0, 1);
         this.StartCoroutine(this.GetWeather(this.latitude, this.longitude));
+    }
+
+    private void Update()
+    {
+        this.UpdateDevicesCount();
+    }
+
+    private void UpdateDevicesCount()
+    {
+        this.DevicesInfoCount = string.Empty;
+        int iconIndex = 39;
+        foreach (var devices in InputManager.Devices)
+        {
+            this.DevicesInfoCount += $"<sprite={iconIndex++}>  ";
+        }
+
+        if (string.IsNullOrEmpty(this.DevicesInfoCount))
+        {
+            this.DevicesInfoCount = "<size=75%>No controller</size>";
+        }
     }
 
     private void UpdateTimers()
