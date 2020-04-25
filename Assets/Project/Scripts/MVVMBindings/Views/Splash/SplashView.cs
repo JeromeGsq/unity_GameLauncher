@@ -1,4 +1,5 @@
 using DG.Tweening;
+using InControl;
 using System.Collections.Generic;
 using System.ComponentModel;
 using Toastapp.MVVM;
@@ -43,14 +44,14 @@ public class SplashView : BaseView<SplashViewModel>
         base.Awake();
         this.CanvasGroup.alpha = 1;
 
-        this.blurPanelMaterial = this.blurPanel?.material;
+        this.blurPanelMaterial = Instantiate(this.blurPanel.material);
+        this.blurPanel.material = this.blurPanelMaterial;
         this.blurPanelMaterial.SetBlurValue(0, 0);
     }
 
     protected override void OnEnable()
     {
         base.OnEnable();
-        this.SetAndStretchToParentSize(this.RectTransform, this.transform.parent.GetComponent<RectTransform>());
         this.hasFocus = true;
     }
 
@@ -60,23 +61,7 @@ public class SplashView : BaseView<SplashViewModel>
 
         if (property.PropertyName.Equals(nameof(this.ViewModel.IsInBackground)))
         {
-            this.hasFocus = true;
-
-            this.fadeAnimation?.tween?.PlayBackwards();
-            this.scaleAnimation?.tween?.PlayBackwards();
-            this.unlockAnimation?.tween?.PlayBackwards();
-
-            AudioManager.Instance.PlayOneShot(this.unlockReverseSound);
-
-            this.blurPanelMaterial.SetBlurValue(1);
-
-            this.DelaySeconds(() =>
-            {
-                foreach (var pSystem in particleSystems)
-                {
-                    pSystem.SetActive(true);
-                }
-            }, 1);
+            this.Resume();
         }
     }
 
@@ -88,36 +73,43 @@ public class SplashView : BaseView<SplashViewModel>
             return;
         }
 
-        if (Input.GetKeyDown(KeyCode.Return))
+        var gamepadState = InputManager.ActiveDevice;
+
+        if (gamepadState.Cross.WasPressed || gamepadState.StartOrSelect.WasPressed)
         {
-            AudioManager.Instance.PlayMove();
-        }
-
-        if (Input.GetKeyDown(KeyCode.Space))
-        {
-            this.hasFocus = false;
-
-            foreach (var pSystem in particleSystems)
-            {
-                pSystem.SetActive(false);
-            }
-
-            this.fadeAnimation?.tween?.PlayForward();
-            this.scaleAnimation?.tween?.PlayForward();
-            this.unlockAnimation?.tween?.PlayForward();
-
-            AudioManager.Instance.PlayOneShot(this.unlockSound);
-
-            this.blurPanelMaterial.SetBlurValue(16, color: new Color(0.3f, 0.3f, 0.3f));
-
-            NavigationService.Get.ShowViewModel(typeof(MenuViewModel), hidePreviousView: false);
+            this.Unlock();
         }
     }
 
-    private void SetAndStretchToParentSize(RectTransform rect, RectTransform parentRect)
+    public void Unlock()
     {
-        rect.anchorMax = new Vector2(1, 1);
-        rect.pivot = new Vector2(0.5f, 0.5f); rect.pivot = new Vector2(0.5f, 0.5f);
-        rect.sizeDelta = Vector2.zero; rect.sizeDelta = Vector2.zero;
+        this.hasFocus = false;
+
+        this.fadeAnimation?.tween?.PlayForward();
+        this.scaleAnimation?.tween?.PlayForward();
+        this.unlockAnimation?.tween?.PlayForward();
+
+        this.blurPanelMaterial.SetBlurValue(16, color: new Color(0.3f, 0.3f, 0.3f));
+
+        AudioManager.Instance.PlayOneShot(this.unlockSound);
+
+        this.DelaySeconds(() =>
+        {
+            NavigationService.Get.ShowViewModel(typeof(MenuViewModel), hidePreviousView: false);
+        }, 0.4f);
+
+    }
+
+    private void Resume()
+    {
+        this.hasFocus = true;
+
+        this.fadeAnimation?.tween?.PlayBackwards();
+        this.scaleAnimation?.tween?.PlayBackwards();
+        this.unlockAnimation?.tween?.PlayBackwards();
+
+        this.blurPanelMaterial.SetBlurValue(1);
+
+        AudioManager.Instance.PlayOneShot(this.unlockReverseSound);
     }
 }

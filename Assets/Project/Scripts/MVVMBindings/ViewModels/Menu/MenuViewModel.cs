@@ -1,3 +1,4 @@
+using Toastapp.MVVM;
 using UnityWeld.Binding;
 
 [Binding]

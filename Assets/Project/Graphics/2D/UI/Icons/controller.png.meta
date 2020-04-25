@@ -1,0 +1,3163 @@
+fileFormatVersion: 2
+guid: 131cc38f2c425fb4fa504df5c84a2837
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4024710785952163994
+    second: controller_0
+  - first:
+      213: -1661508637701066994
+    second: controller_1
+  - first:
+      213: 5197492861090702183
+    second: controller_2
+  - first:
+      213: 6727092223577742586
+    second: controller_3
+  - first:
+      213: 6787269398277505212
+    second: controller_4
+  - first:
+      213: 7675499364226262627
+    second: controller_5
+  - first:
+      213: 4580336514155987254
+    second: controller_6
+  - first:
+      213: 3322056129950060463
+    second: controller_7
+  - first:
+      213: 1698234344489544353
+    second: controller_8
+  - first:
+      213: -7399412696815444625
+    second: controller_9
+  - first:
+      213: 370879372720761829
+    second: controller_10
+  - first:
+      213: 5855802344922766653
+    second: controller_11
+  - first:
+      213: -5157752232873876433
+    second: controller_12
+  - first:
+      213: 2798945958967845484
+    second: controller_13
+  - first:
+      213: -1448861541211638898
+    second: controller_14
+  - first:
+      213: 878051897885661738
+    second: controller_15
+  - first:
+      213: 7199562029480223237
+    second: controller_16
+  - first:
+      213: 10282548963289934
+    second: controller_17
+  - first:
+      213: 6732713322268069678
+    second: controller_18
+  - first:
+      213: -730500203453611971
+    second: controller_19
+  - first:
+      213: 7252135645550780379
+    second: controller_20
+  - first:
+      213: -2139435127376816914
+    second: controller_21
+  - first:
+      213: -3980822574706892124
+    second: controller_22
+  - first:
+      213: 7459855795561751099
+    second: controller_23
+  - first:
+      213: -640425363904757031
+    second: controller_24
+  - first:
+      213: -7736179175709602775
+    second: controller_25
+  - first:
+      213: 514846549147558954
+    second: controller_26
+  - first:
+      213: -5538573830679525246
+    second: controller_27
+  - first:
+      213: 753547318840482606
+    second: controller_28
+  - first:
+      213: 2889664028790867684
+    second: controller_29
+  - first:
+      213: -1100168373829178027
+    second: controller_30
+  - first:
+      213: -5880876157727816031
+    second: controller_31
+  - first:
+      213: -5807894472384385728
+    second: controller_32
+  - first:
+      213: 6582316754289288778
+    second: controller_33
+  - first:
+      213: -7548056624340478593
+    second: controller_34
+  - first:
+      213: 1342310495277969324
+    second: controller_35
+  - first:
+      213: -4738118313947615480
+    second: controller_36
+  - first:
+      213: -1008771225656180842
+    second: controller_37
+  - first:
+      213: 7620169904140015195
+    second: controller_38
+  - first:
+      213: -4548680778832226535
+    second: controller_39
+  - first:
+      213: 6385756693607794088
+    second: controller_40
+  - first:
+      213: 3166837682155017424
+    second: controller_41
+  - first:
+      213: 268949270852255926
+    second: controller_42
+  - first:
+      213: -1887114426574149069
+    second: controller_43
+  - first:
+      213: 4977983635670571500
+    second: controller_44
+  - first:
+      213: 5008476615508371780
+    second: controller_45
+  - first:
+      213: -1663645373598244672
+    second: controller_46
+  - first:
+      213: -5941273592572047165
+    second: controller_47
+  - first:
+      213: -2404445124325247920
+    second: controller_48
+  - first:
+      213: -932954525537091363
+    second: controller_49
+  - first:
+      213: 4293485010509714475
+    second: controller_50
+  - first:
+      213: -1991644216811603874
+    second: controller_51
+  - first:
+      213: 7253970158526468121
+    second: controller_52
+  - first:
+      213: 295887825716931209
+    second: controller_53
+  - first:
+      213: 8256078405445388007
+    second: controller_54
+  - first:
+      213: 4161270514423945863
+    second: controller_55
+  - first:
+      213: 7379624805544993384
+    second: controller_56
+  - first:
+      213: 2970893611154866180
+    second: controller_57
+  - first:
+      213: 3929748163334334033
+    second: controller_58
+  - first:
+      213: 5911484646221783686
+    second: controller_59
+  - first:
+      213: 2199417963601114329
+    second: controller_60
+  - first:
+      213: -6158855735889323675
+    second: controller_61
+  - first:
+      213: -814325797028117132
+    second: controller_62
+  - first:
+      213: -6959151594899745493
+    second: controller_63
+  - first:
+      213: -965945689221490241
+    second: controller_64
+  - first:
+      213: -7801262951915309084
+    second: controller_65
+  - first:
+      213: 8823863522549927709
+    second: controller_66
+  - first:
+      213: -3369833340377689282
+    second: controller_67
+  - first:
+      213: 8077647874737968848
+    second: controller_68
+  - first:
+      213: -822093125018511687
+    second: controller_69
+  - first:
+      213: 2745880534738053250
+    second: controller_70
+  - first:
+      213: -2972875939587016169
+    second: controller_71
+  - first:
+      213: 4256830588166676375
+    second: controller_72
+  - first:
+      213: 7112614978043579876
+    second: controller_73
+  - first:
+      213: -6645197506450860730
+    second: controller_74
+  - first:
+      213: 7270644049259644834
+    second: controller_75
+  - first:
+      213: -9190545253193984590
+    second: controller_76
+  - first:
+      213: 6694834632923005842
+    second: controller_77
+  - first:
+      213: -1134747915724119393
+    second: controller_78
+  - first:
+      213: 1014224460522473600
+    second: controller_79
+  - first:
+      213: 756272576735124735
+    second: controller_80
+  - first:
+      213: -8652169789233420330
+    second: controller_81
+  - first:
+      213: -1188041905756281906
+    second: controller_82
+  - first:
+      213: -3996957730842816073
+    second: controller_83
+  - first:
+      213: 6839971886027698581
+    second: controller_84
+  - first:
+      213: 7441251001794824087
+    second: controller_85
+  - first:
+      213: -3961709805720296008
+    second: controller_86
+  - first:
+      213: -6162274294237295003
+    second: controller_87
+  - first:
+      213: 4883948829572137719
+    second: controller_88
+  - first:
+      213: 8532478409189830074
+    second: controller_89
+  - first:
+      213: -793908004198499374
+    second: controller_90
+  - first:
+      213: -3756303295509629337
+    second: controller_91
+  - first:
+      213: 3875936815866477376
+    second: controller_92
+  - first:
+      213: 7394682983578264975
+    second: controller_93
+  - first:
+      213: 2066737109284050179
+    second: controller_94
+  - first:
+      213: 4139655311195640477
+    second: controller_95
+  - first:
+      213: -6670834014733320004
+    second: controller_96
+  - first:
+      213: -1335884401100035362
+    second: controller_97
+  - first:
+      213: 5038615930429712509
+    second: controller_98
+  - first:
+      213: 1207915024096614358
+    second: controller_99
+  - first:
+      213: 2789013606280508622
+    second: controller_100
+  - first:
+      213: 8266829407600383543
+    second: controller_101
+  - first:
+      213: -6004452972916636681
+    second: controller_102
+  - first:
+      213: -3239997784624491518
+    second: controller_103
+  - first:
+      213: 3388388410983959224
+    second: controller_104
+  - first:
+      213: 4797426820051193837
+    second: controller_105
+  - first:
+      213: 7967728544036720323
+    second: controller_106
+  - first:
+      213: 7026661142374952
+    second: controller_107
+  - first:
+      213: -3214829457041254899
+    second: controller_108
+  - first:
+      213: 2468527538764870402
+    second: controller_109
+  - first:
+      213: -5464502186252017335
+    second: controller_110
+  - first:
+      213: 546921033743607460
+    second: controller_111
+  - first:
+      213: -3964297307806431339
+    second: controller_112
+  - first:
+      213: -9045096251438648158
+    second: controller_113
+  - first:
+      213: 1040547591642293576
+    second: controller_114
+  - first:
+      213: -6904139328698118776
+    second: controller_115
+  - first:
+      213: 7193575753608277563
+    second: controller_116
+  - first:
+      213: -551410225282996795
+    second: controller_117
+  - first:
+      213: -6549680457028757981
+    second: controller_118
+  - first:
+      213: -7410254852401946114
+    second: controller_119
+  - first:
+      213: -3475731486543863266
+    second: controller_120
+  - first:
+      213: 938466878481511715
+    second: controller_121
+  - first:
+      213: 5131139411020164797
+    second: controller_122
+  - first:
+      213: 3420182720113443430
+    second: controller_123
+  - first:
+      213: 1421569911581350841
+    second: controller_124
+  - first:
+      213: -533363472443602817
+    second: controller_125
+  - first:
+      213: -294266892871657424
+    second: controller_126
+  - first:
+      213: 4655816943557229093
+    second: controller_127
+  - first:
+      213: 5946111166253460504
+    second: controller_128
+  - first:
+      213: -4558900967050106352
+    second: controller_129
+  - first:
+      213: 5833336046288860008
+    second: controller_130
+  - first:
+      213: 2541450593394013233
+    second: controller_131
+  - first:
+      213: 2733650733312921750
+    second: controller_132
+  - first:
+      213: 3576989932186061777
+    second: controller_133
+  - first:
+      213: 133973865786318351
+    second: controller_134
+  - first:
+      213: -379047627388820515
+    second: controller_135
+  - first:
+      213: 2110106657126933556
+    second: controller_136
+  - first:
+      213: 8655438800384367043
+    second: controller_137
+  - first:
+      213: 9000850916643422275
+    second: controller_138
+  - first:
+      213: 7161538231380008151
+    second: controller_139
+  - first:
+      213: -7404255838705856533
+    second: controller_140
+  - first:
+      213: -880055468736932899
+    second: controller_141
+  - first:
+      213: -2156076765310117810
+    second: controller_142
+  - first:
+      213: -7634579951451165611
+    second: controller_143
+  - first:
+      213: 4698443016489586246
+    second: controller_144
+  - first:
+      213: 2755406893565552141
+    second: controller_145
+  - first:
+      213: 1922126245535388895
+    second: controller_146
+  - first:
+      213: 3223217335062835539
+    second: controller_147
+  - first:
+      213: 2568661693764231029
+    second: controller_148
+  - first:
+      213: 1866419319439395513
+    second: controller_149
+  - first:
+      213: -1214268252722111595
+    second: controller_150
+  - first:
+      213: -8467868052650452968
+    second: controller_151
+  - first:
+      213: 3376550180359143681
+    second: controller_152
+  - first:
+      213: -9066020910381426472
+    second: controller_153
+  - first:
+      213: -8496146933067789855
+    second: controller_154
+  - first:
+      213: 1406527084435186752
+    second: controller_155
+  - first:
+      213: 6557777985341321074
+    second: controller_156
+  - first:
+      213: -6385644284860963079
+    second: controller_157
+  - first:
+      213: -1254192784920009532
+    second: controller_158
+  - first:
+      213: -7557737042347590820
+    second: controller_159
+  - first:
+      213: 3854398672307607953
+    second: controller_160
+  - first:
+      213: 1431161456843028875
+    second: controller_161
+  - first:
+      213: 2822852306185097697
+    second: controller_162
+  - first:
+      213: -7107139681780357860
+    second: controller_163
+  - first:
+      213: 6277186439307970263
+    second: controller_164
+  - first:
+      213: -5534754426711796075
+    second: controller_165
+  - first:
+      213: 7729147722991732209
+    second: controller_166
+  - first:
+      213: 6425205502472311539
+    second: controller_167
+  - first:
+      213: -7775270511047567920
+    second: controller_168
+  - first:
+      213: -9046191245831329308
+    second: controller_169
+  - first:
+      213: 7328930980485301239
+    second: controller_170
+  - first:
+      213: -3445598563039961807
+    second: controller_171
+  - first:
+      213: 4785810745076503890
+    second: controller_172
+  - first:
+      213: -2562981759698724814
+    second: controller_173
+  - first:
+      213: 5619785050530751896
+    second: controller_174
+  - first:
+      213: 7811148265132173438
+    second: controller_175
+  - first:
+      213: -5847120837698006358
+    second: controller_176
+  - first:
+      213: -1030149712320424383
+    second: controller_177
+  - first:
+      213: -8136604919381051672
+    second: controller_178
+  - first:
+      213: -8642385042664006735
+    second: controller_179
+  - first:
+      213: 5961709809802891847
+    second: controller_180
+  - first:
+      213: -4920132483896545241
+    second: controller_181
+  - first:
+      213: -3204973493160735575
+    second: controller_182
+  - first:
+      213: -8777908689499817189
+    second: controller_183
+  - first:
+      213: -7890898751091186655
+    second: controller_184
+  - first:
+      213: -8331022737070524496
+    second: controller_185
+  - first:
+      213: 8306363597297732940
+    second: controller_186
+  - first:
+      213: 6077051114337659466
+    second: controller_187
+  - first:
+      213: -1446031753969423061
+    second: controller_188
+  - first:
+      213: -8533033687203568366
+    second: controller_189
+  - first:
+      213: -6685643359291426739
+    second: controller_190
+  - first:
+      213: 8418479402848718784
+    second: controller_191
+  - first:
+      213: 7448875079711244761
+    second: controller_192
+  - first:
+      213: 211236394372580497
+    second: controller_193
+  - first:
+      213: -2354031335499336879
+    second: controller_194
+  - first:
+      213: -7389722728102316012
+    second: controller_195
+  - first:
+      213: 1035147380820915160
+    second: controller_196
+  - first:
+      213: -1951128067067000636
+    second: controller_197
+  - first:
+      213: 743369993239527116
+    second: controller_198
+  - first:
+      213: 6973837317953689320
+    second: controller_199
+  - first:
+      213: -8401745283910390697
+    second: controller_200
+  - first:
+      213: 239813357810330024
+    second: controller_201
+  - first:
+      213: -3823560545437786265
+    second: controller_202
+  - first:
+      213: 6388419304348122253
+    second: controller_203
+  - first:
+      213: 8633930701888718313
+    second: controller_204
+  - first:
+      213: -8961590537520015612
+    second: controller_205
+  - first:
+      213: 336947978046605500
+    second: controller_206
+  - first:
+      213: -818010156689495665
+    second: controller_207
+  - first:
+      213: -2087207974652457025
+    second: controller_208
+  - first:
+      213: 1100112353382839811
+    second: controller_209
+  - first:
+      213: -3134147455149820732
+    second: controller_210
+  - first:
+      213: -2602872879776268762
+    second: controller_211
+  - first:
+      213: -2503134028983966946
+    second: controller_212
+  - first:
+      213: 2994915058642190447
+    second: controller_213
+  - first:
+      213: -2958269761229752491
+    second: controller_214
+  - first:
+      213: -5823678571976891492
+    second: controller_215
+  - first:
+      213: 8539156822670863068
+    second: controller_216
+  - first:
+      213: -691877574855943886
+    second: controller_217
+  - first:
+      213: 6510977811224974900
+    second: controller_218
+  - first:
+      213: -2151560135295679556
+    second: controller_219
+  - first:
+      213: 237657613855954350
+    second: controller_220
+  - first:
+      213: 6204917695591378579
+    second: controller_221
+  - first:
+      213: 1777199638109093625
+    second: controller_222
+  - first:
+      213: -8936887077148945192
+    second: controller_223
+  - first:
+      213: -5561611586341770631
+    second: controller_224
+  - first:
+      213: 6507405738657415846
+    second: controller_225
+  - first:
+      213: 7415623134947807553
+    second: controller_226
+  - first:
+      213: 2248215142290844486
+    second: controller_227
+  - first:
+      213: -1922802303624558310
+    second: controller_228
+  - first:
+      213: 3808501285897367526
+    second: controller_229
+  - first:
+      213: -7823021571141905170
+    second: controller_230
+  - first:
+      213: 1457969645467794001
+    second: controller_231
+  - first:
+      213: 8738660144146325796
+    second: controller_232
+  - first:
+      213: 2951881189469890160
+    second: controller_233
+  - first:
+      213: -7667039786900756159
+    second: controller_234
+  - first:
+      213: -8288818578205949675
+    second: controller_235
+  - first:
+      213: 2416969829966995334
+    second: controller_236
+  - first:
+      213: 6933571239473705726
+    second: controller_237
+  - first:
+      213: 735336515748948392
+    second: controller_238
+  - first:
+      213: -8881534438189657113
+    second: controller_239
+  - first:
+      213: 3450071027766380514
+    second: controller_240
+  - first:
+      213: 1958827938733574383
+    second: controller_241
+  - first:
+      213: 4455143220129457004
+    second: controller_242
+  - first:
+      213: 8034677983611902540
+    second: controller_243
+  - first:
+      213: 7798430572809089777
+    second: controller_244
+  - first:
+      213: 1244930047144640334
+    second: controller_245
+  - first:
+      213: 3788898430790430972
+    second: controller_246
+  - first:
+      213: 6266267612122248216
+    second: controller_247
+  - first:
+      213: 957093378990836180
+    second: controller_248
+  - first:
+      213: 6606228386892584908
+    second: controller_249
+  - first:
+      213: 2735801621236104707
+    second: controller_250
+  - first:
+      213: 8023136591531802096
+    second: controller_251
+  - first:
+      213: -5849373705515207887
+    second: controller_252
+  - first:
+      213: -6750665906684904208
+    second: controller_253
+  - first:
+      213: -4638161519979575832
+    second: controller_254
+  - first:
+      213: -8852851874940906442
+    second: controller_255
+  - first:
+      213: 5605713549167300659
+    second: controller_256
+  - first:
+      213: 8506110365810258447
+    second: controller_257
+  - first:
+      213: -8456385163631113889
+    second: controller_258
+  - first:
+      213: -1887384089625658923
+    second: controller_259
+  - first:
+      213: -1643225001932907996
+    second: controller_260
+  - first:
+      213: 1361231879840322545
+    second: controller_261
+  - first:
+      213: 1356353717667118789
+    second: controller_262
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 2
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: controller_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 900
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66753af2dda5528c0800000000000000
+      internalID: -4024710785952163994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_1
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 900
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0fa59272b221f8e0800000000000000
+      internalID: -1661508637701066994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_2
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 900
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 763a0fb3834312840800000000000000
+      internalID: 5197492861090702183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_3
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 900
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afcd4a55cbe6b5d50800000000000000
+      internalID: 6727092223577742586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_4
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 900
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb0c537ae89313e50800000000000000
+      internalID: 6787269398277505212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_5
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 900
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3666176510ad48a60800000000000000
+      internalID: 7675499364226262627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_6
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 900
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 631c40ebacf909f30800000000000000
+      internalID: 4580336514155987254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_7
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 900
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: faf059df2705a1e20800000000000000
+      internalID: 3322056129950060463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_8
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 900
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1aaeaa08327519710800000000000000
+      internalID: 1698234344489544353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_9
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 900
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6ddcc32b51005990800000000000000
+      internalID: -7399412696815444625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_10
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 900
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5eb6a8113d0a52500800000000000000
+      internalID: 370879372720761829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_11
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 800
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3d5504153df34150800000000000000
+      internalID: 5855802344922766653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_12
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 800
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f242310dbabfb68b0800000000000000
+      internalID: -5157752232873876433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_13
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 800
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c622bcd258ad7d620800000000000000
+      internalID: 2798945958967845484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_14
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 800
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e83fa5bca1c94ebe0800000000000000
+      internalID: -1448861541211638898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_15
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 800
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2a15db8c877f2c00800000000000000
+      internalID: 878051897885661738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_16
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 800
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5022f89558bf9e360800000000000000
+      internalID: 7199562029480223237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_17
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 800
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4ba75e7ce7842000800000000000000
+      internalID: 10282548963289934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_18
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 800
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2f045c58176f6d50800000000000000
+      internalID: 6732713322268069678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_19
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 800
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d300cc07fedbcd5f0800000000000000
+      internalID: -730500203453611971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_20
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 800
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdf900832f2c4a460800000000000000
+      internalID: 7252135645550780379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_21
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 800
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee456bc36133f42e0800000000000000
+      internalID: -2139435127376816914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_22
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 700
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a26db8a5f641c8c0800000000000000
+      internalID: -3980822574706892124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_23
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 700
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b32e812725bb68760800000000000000
+      internalID: 7459855795561751099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_24
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 700
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d28e4f4680cc17f0800000000000000
+      internalID: -640425363904757031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_25
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 700
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92c0e09170293a490800000000000000
+      internalID: -7736179175709602775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_26
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 700
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a24a6cb653a152700800000000000000
+      internalID: 514846549147558954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_27
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 700
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 288821412780323b0800000000000000
+      internalID: -5538573830679525246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_28
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 700
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2b5fe44b43257a00800000000000000
+      internalID: 753547318840482606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_29
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 700
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e6cd44cf162a1820800000000000000
+      internalID: 2889664028790867684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_30
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 700
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55deac461ba6bb0f0800000000000000
+      internalID: -1100168373829178027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_31
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 700
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a6c192fa4ee26ea0800000000000000
+      internalID: -5880876157727816031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_32
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 700
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04de298bfb6366fa0800000000000000
+      internalID: -5807894472384385728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_33
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 600
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a46e382a636195b50800000000000000
+      internalID: 6582316754289288778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_34
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 600
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f75d6a1dd7aef3790800000000000000
+      internalID: -7548056624340478593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_35
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 600
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: caf62599848d0a210800000000000000
+      internalID: 1342310495277969324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_36
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 600
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80f21614f72de3eb0800000000000000
+      internalID: -4738118313947615480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_37
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 600
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69fb02b3aef1002f0800000000000000
+      internalID: -1008771225656180842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_38
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 600
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b565368872840c960800000000000000
+      internalID: 7620169904140015195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_39
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 600
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 917de0d7ee6dfd0c0800000000000000
+      internalID: -4548680778832226535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_40
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 600
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a5c09031e3ce9850800000000000000
+      internalID: 6385756693607794088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_41
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 600
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d4db22e71ed2fb20800000000000000
+      internalID: 3166837682155017424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_42
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 600
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b0cfb7dfef7bb300800000000000000
+      internalID: 268949270852255926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_43
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 600
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33a68896d6f9fc5e0800000000000000
+      internalID: -1887114426574149069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_44
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 500
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce91addfdb9551540800000000000000
+      internalID: 4977983635670571500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_45
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 500
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4492a3d12fea18540800000000000000
+      internalID: 5008476615508371780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_46
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 500
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c0647ad85b89e8e0800000000000000
+      internalID: -1663645373598244672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_47
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 500
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c09551552b5c8da0800000000000000
+      internalID: -5941273592572047165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_48
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 500
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0547ca216e1b1aed0800000000000000
+      internalID: -2404445124325247920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_49
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 500
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd0c4c15dca7d03f0800000000000000
+      internalID: -932954525537091363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_50
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 500
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2455e38ed5859b30800000000000000
+      internalID: 4293485010509714475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_51
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 500
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e58bbf113224c54e0800000000000000
+      internalID: -1991644216811603874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_52
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 500
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 910114e0d674ba460800000000000000
+      internalID: 7253970158526468121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_53
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 500
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98a6839e8643b1400800000000000000
+      internalID: 295887825716931209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_54
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 500
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e68852319b739270800000000000000
+      internalID: 8256078405445388007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_55
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 400
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78adb8a4c7dcfb930800000000000000
+      internalID: 4161270514423945863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_56
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 400
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 862ab2669a1b96660800000000000000
+      internalID: 7379624805544993384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_57
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 400
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4000d56bffbba3920800000000000000
+      internalID: 2970893611154866180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_58
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 400
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15669444225498630800000000000000
+      internalID: 3929748163334334033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_59
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 400
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 682a93127ffc90250800000000000000
+      internalID: 5911484646221783686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_60
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 400
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d4be012cf6e58e10800000000000000
+      internalID: 2199417963601114329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_61
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 400
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5699077d659578aa0800000000000000
+      internalID: -6158855735889323675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_62
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 400
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 475c3b8800fe2b4f0800000000000000
+      internalID: -814325797028117132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_63
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 400
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2558efde702c6f90800000000000000
+      internalID: -6959151594899745493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_64
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 400
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb912a173854892f0800000000000000
+      internalID: -965945689221490241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_65
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 300
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e73ca79da85cb390800000000000000
+      internalID: -7801262951915309084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_66
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 300
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1f8d187f19a47a70800000000000000
+      internalID: 8823863522549927709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_67
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 300
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e33158a5e62fb31d0800000000000000
+      internalID: -3369833340377689282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_68
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 300
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d61272e1f1991070800000000000000
+      internalID: 8077647874737968848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_69
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 300
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b61bfe88a65794f0800000000000000
+      internalID: -822093125018511687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_70
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 300
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 288a8bc4cc35b1620800000000000000
+      internalID: 2745880534738053250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_71
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 300
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71a3c9b75193eb6d0800000000000000
+      internalID: -2972875939587016169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_72
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 300
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79f11b4cddc431b30800000000000000
+      internalID: 4256830588166676375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_73
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 300
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ed096663a515b260800000000000000
+      internalID: 7112614978043579876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_74
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 300
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6455fad531487c3a0800000000000000
+      internalID: -6645197506450860730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_75
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 200
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a7cd64cd3486e460800000000000000
+      internalID: 7270644049259644834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_76
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 200
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b5583b29cf947080800000000000000
+      internalID: -9190545253193984590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_77
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 200
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 293cb5db0a4d8ec50800000000000000
+      internalID: 6694834632923005842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_78
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 200
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9226a568c09040f0800000000000000
+      internalID: -1134747915724119393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_79
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 200
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08844f3f5cf331e00800000000000000
+      internalID: 1014224460522473600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_80
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 200
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffc9aa1d6e1de7a00800000000000000
+      internalID: 756272576735124735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_81
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 200
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d72068fa615de780800000000000000
+      internalID: -8652169789233420330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_82
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 200
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec36e156e2a338fe0800000000000000
+      internalID: -1188041905756281906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_83
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 200
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b1dcdede14f788c0800000000000000
+      internalID: -3996957730842816073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_84
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 200
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 591f65cc0367cee50800000000000000
+      internalID: 6839971886027698581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_85
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 100
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79700865c52a44760800000000000000
+      internalID: 7441251001794824087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_86
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 100
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b52cd6fbed2509c0800000000000000
+      internalID: -3961709805720296008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_87
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 100
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56e0773bd243b7aa0800000000000000
+      internalID: -6162274294237295003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_88
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 100
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f205df859547c340800000000000000
+      internalID: 4883948829572137719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_89
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 100
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abd2379f7e3796670800000000000000
+      internalID: 8532478409189830074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_90
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 100
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dbb86160e87bf4f0800000000000000
+      internalID: -793908004198499374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_91
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 100
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 766f482fd0eeedbc0800000000000000
+      internalID: -3756303295509629337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_92
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 100
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04b74999ff71ac530800000000000000
+      internalID: 3875936815866477376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_93
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 100
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f85eeceaef03f9660800000000000000
+      internalID: 7394682983578264975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_94
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 100
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3055efa63768eac10800000000000000
+      internalID: 2066737109284050179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_95
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d92106c9292037930800000000000000
+      internalID: 4139655311195640477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_96
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 0
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb04a34aecf6c63a0800000000000000
+      internalID: -6670834014733320004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_97
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 0
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eda627b073cf57de0800000000000000
+      internalID: -1335884401100035362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_98
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 0
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7823e43e72cce540800000000000000
+      internalID: 5038615930429712509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_99
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 0
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d7d22a805063c010800000000000000
+      internalID: 1207915024096614358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_100
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 0
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec4b41c191194b620800000000000000
+      internalID: 2789013606280508622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_101
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 0
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73616c2fb8da9b270800000000000000
+      internalID: 8266829407600383543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_102
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 0
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f304c685d5ebaca0800000000000000
+      internalID: -6004452972916636681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_103
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 0
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 204976e5e273903d0800000000000000
+      internalID: -3239997784624491518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_104
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 0
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bacfbdae49f50f20800000000000000
+      internalID: 3388388410983959224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_105
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1100
+        height: 1000
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: def45156642e39240800000000000000
+      internalID: 4797426820051193837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_106
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1100
+        height: 1000
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ce8c0e55ee039e60800000000000000
+      internalID: 7967728544036720323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

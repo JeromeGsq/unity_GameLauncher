@@ -1,5 +1,15 @@
 {
+  "scopedRegistries": [
+    {
+      "name": "Packages from jillejr",
+      "url": "https://npm.cloudsmith.io/jillejr/newtonsoft-json-for-unity/",
+      "scopes": [
+        "jillejr"
+      ]
+    }
+  ],
   "dependencies": {
+    "jillejr.newtonsoft.json-for-unity": "12.0.201",
     "com.toastapp.folder_structure_generator": "https://github.com/JeromeGsq/unity_toastapp_folder_structure_generator.git",
     "com.toastapp.mvvm_binding_navigation": "file:C:/Users/Kotasan/Documents/Projets/Unity Workspace/packages/unity_toastapp_mvvm_binding_navigation",
     "com.toastapp.toolbox": "https://github.com/JeromeGsq/unity_toastapp_toolbox.git#version-1.0.1",
