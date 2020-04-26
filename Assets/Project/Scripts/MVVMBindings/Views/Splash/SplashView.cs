@@ -69,8 +69,7 @@ public class SplashView : BaseView<SplashViewModel>
         }
 
         var gamepadState = InputManager.ActiveDevice;
-
-        if (gamepadState.Cross.WasPressed || gamepadState.StartOrSelect.WasPressed)
+        if (gamepadState.StartOrSelect.WasPressed)
         {
             this.Unlock();
         }
@@ -84,7 +83,7 @@ public class SplashView : BaseView<SplashViewModel>
         this.scaleAnimation?.tween?.PlayForward();
         this.unlockAnimation?.tween?.PlayForward();
 
-        this.blurPanelMaterial.SetBlurValue(16, color: new Color(0.3f, 0.3f, 0.3f));
+        this.blurPanelMaterial.SetBlurValue(16);
 
         AudioManager.Instance.PlayOneShot(this.unlockSound);
 
@@ -103,7 +102,7 @@ public class SplashView : BaseView<SplashViewModel>
         this.scaleAnimation?.tween?.PlayBackwards();
         this.unlockAnimation?.tween?.PlayBackwards();
 
-        this.blurPanelMaterial.SetBlurValue(1);
+        this.blurPanelMaterial.SetBlurValue(0);
 
         AudioManager.Instance.PlayOneShot(this.unlockReverseSound);
     }

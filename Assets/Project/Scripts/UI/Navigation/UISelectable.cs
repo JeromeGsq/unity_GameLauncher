@@ -21,10 +21,10 @@ public class UISelectable : Selectable, ISelectHandler
 
     protected bool HasFocus => this.hasFocus;
 
-    public Selectable Up { get; private set; }
-    public Selectable Down { get; private set; }
-    public Selectable Left { get; private set; }
-    public Selectable Right { get; private set; }
+    public Selectable Up { get; set; }
+    public Selectable Down { get; set; }
+    public Selectable Left { get; set; }
+    public Selectable Right { get; set; }
 
     public ButtonClickedEvent OnFocusSelected { get => this.onFocusSelected; set => this.onFocusSelected = value; }
     public ButtonClickedEvent OnFocusDeselected { get => this.onFocusDeselected; set => this.onFocusDeselected = value; }
@@ -44,11 +44,7 @@ public class UISelectable : Selectable, ISelectHandler
             this.Left = this.selectable.navigation.selectOnLeft;
             this.Right = this.selectable.navigation.selectOnRight;
         }
-
-        if (this.buttonManager != null)
-        {
-            this.buttonManager.OnButtonFocusChanged += this.UpdateFocus;
-        }
+        UISelectableManager.OnButtonFocusChanged += this.UpdateFocus;
 
         this.UpdateFocus(this.buttonManager?.FocusedButton);
     }
@@ -81,19 +77,17 @@ public class UISelectable : Selectable, ISelectHandler
         }
     }
 
-    /*
     public override void OnPointerEnter(PointerEventData eventData)
     {
         base.OnPointerEnter(eventData);
-        this.OnFocusSelected?.Invoke();
-        this.selectable?.Select();
+        this.OnSelect(eventData);
     }
 
-    public override void OnPointerExit(PointerEventData eventData)
+    protected override void OnDestroy()
     {
-        base.OnPointerEnter(eventData);
-        this.OnFocusDeselected?.Invoke();
+        base.OnDestroy();
+        UISelectableManager.OnButtonFocusChanged -= this.UpdateFocus;
     }
-    */
 }
+
 

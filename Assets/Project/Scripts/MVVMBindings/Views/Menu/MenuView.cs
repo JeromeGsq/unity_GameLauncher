@@ -88,6 +88,9 @@ public class MenuView : BaseView<MenuViewModel>
 
     public void ShowShutdownPanel()
     {
+        this.gamesView.gameObject.SetActive(false);
+        this.appsView.gameObject.SetActive(false);
+        this.settingsView.gameObject.SetActive(false);
         this.shutdownPanel.SetActive(true);
     }
 

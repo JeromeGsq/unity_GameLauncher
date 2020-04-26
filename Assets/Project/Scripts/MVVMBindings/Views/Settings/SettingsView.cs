@@ -1,7 +1,7 @@
 using UnityEngine;
 
 [RequireComponent(typeof(SettingsViewModel))]
-public class SettingsView : BaseView<SettingsViewModel>
+public class SettingsView : TabsView<SettingsViewModel>
 {
 
 }

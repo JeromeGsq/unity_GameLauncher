@@ -57,7 +57,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 058cba836c1846c3aa1c5fd2e28aea77, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Material: {fileID: -1480364440848012768, guid: ca35165965c188f409af1e663f7465ba,
+  m_Material: {fileID: -2931528238716117518, guid: ca35165965c188f409af1e663f7465ba,
     type: 2}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
@@ -67,7 +67,7 @@ MonoBehaviour:
   m_fontAsset: {fileID: 11400000, guid: 0d71dff95ff36304db56f99f29d63c56, type: 2}
   m_spriteAsset: {fileID: 11400000, guid: ca35165965c188f409af1e663f7465ba, type: 2}
   m_material: {fileID: 0}
-  m_sharedMaterial: {fileID: -1480364440848012768, guid: ca35165965c188f409af1e663f7465ba,
+  m_sharedMaterial: {fileID: -2931528238716117518, guid: ca35165965c188f409af1e663f7465ba,
     type: 2}
   m_isDefaultMaterial: 1
   m_padding: 0
@@ -139,7 +139,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: '<sprite=81> : Select      <sprite=12> : Launch      <sprite=23> : Details'
+  m_text: '<sprite=65> : Move      <sprite=12> : Select      <sprite=23> : Details'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 0d71dff95ff36304db56f99f29d63c56, type: 2}
   m_sharedMaterial: {fileID: 8383903164820911919, guid: 0d71dff95ff36304db56f99f29d63c56,
@@ -209,7 +209,7 @@ MonoBehaviour:
   m_margin: {x: 10, y: 10, z: 10, w: 10}
   m_textInfo:
     textComponent: {fileID: 8952528712398244468}
-    characterCount: 43
+    characterCount: 41
     spriteCount: 0
     spaceCount: 18
     wordCount: 4
