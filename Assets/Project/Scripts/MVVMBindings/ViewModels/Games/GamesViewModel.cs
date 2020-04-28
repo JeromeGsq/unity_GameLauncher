@@ -19,22 +19,26 @@ public class GamesViewModel : BaseViewModel
         list.Add(new GameItemData
         {
             Title = "Resident Evil 0: HD Remaster",
+            FileName = "re0",
             ExecutableLink = "steam://rungameid/339340"
         });
 
         list.Add(new GameItemData
         {
-            Title = "Resident Evil: HD Remaster"
+            Title = "Resident Evil: HD Remaster",
+            FileName = "re1",
         });
 
         list.Add(new GameItemData
         {
-            Title = "Resident Evil 2 (2019)"
+            Title = "Resident Evil 2 (2019)",
+            FileName = "re2",
         });
 
         list.Add(new GameItemData
         {
-            Title = "Resident Evil 3 (2020)"
+            Title = "Resident Evil 3 (2020)",
+            FileName = "re3",
         });
 
         this.GameItemDatas = list;

@@ -335,6 +335,7 @@ GameObject:
   - component: {fileID: 4999409080928211859}
   - component: {fileID: 749877950542380824}
   - component: {fileID: 727728718664066332}
+  - component: {fileID: 2129779416860383172}
   m_Layer: 5
   m_Name: Panel-Background
   m_TagString: Untagged
@@ -387,7 +388,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: c7c0a1597a7d3004d8378b550afa5461, type: 3}
+  m_Sprite: {fileID: 0}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -411,6 +412,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_AspectMode: 2
   m_AspectRatio: 2
+--- !u!114 &2129779416860383172
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4317131753928917934}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c17a4101bcc9c24bb4f6db73a89a679, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  viewAdapterTypeName: 
+  viewAdapterOptions: {fileID: 0}
+  viewModelPropertyName: GameItemPanelViewModel.Cover
+  viewPropertyName: UnityEngine.UI.Image.sprite
 --- !u!1 &5211044581978549929
 GameObject:
   m_ObjectHideFlags: 0
@@ -668,6 +685,7 @@ GameObject:
   - component: {fileID: 1779607376151545932}
   - component: {fileID: 6745787171152136983}
   - component: {fileID: 6938011702420760152}
+  - component: {fileID: 2357001663349614456}
   m_Layer: 5
   m_Name: Panel-Icon
   m_TagString: Untagged
@@ -730,6 +748,22 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!114 &2357001663349614456
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7314094380782395062}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c17a4101bcc9c24bb4f6db73a89a679, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  viewAdapterTypeName: 
+  viewAdapterOptions: {fileID: 0}
+  viewModelPropertyName: GameItemPanelViewModel.Icon
+  viewPropertyName: UnityEngine.UI.Image.sprite
 --- !u!1 &7777744632186938642
 GameObject:
   m_ObjectHideFlags: 0

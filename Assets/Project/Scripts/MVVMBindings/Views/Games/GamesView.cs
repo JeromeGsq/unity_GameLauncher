@@ -56,7 +56,7 @@ public class GamesView : TabsView<GamesViewModel>
             var gameItemData = this.ViewModel.GameItemDatas[i];
             var gameItemGameObject = Instantiate(gameItemPanelPrefab, this.root);
 
-            gameItemGameObject.GetComponent<GameItemPanelViewModel>().GameItemData = gameItemData;
+            gameItemGameObject.GetComponent<GameItemPanelViewModel>().SetParameters(gameItemData);
             this.gameItemPanels.Add(gameItemGameObject);
         }
 
