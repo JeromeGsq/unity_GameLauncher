@@ -9,7 +9,6 @@
     }
   ],
   "dependencies": {
-    "jillejr.newtonsoft.json-for-unity": "12.0.201",
     "com.toastapp.folder_structure_generator": "https://github.com/JeromeGsq/unity_toastapp_folder_structure_generator.git",
     "com.toastapp.mvvm_binding_navigation": "file:C:/Users/Kotasan/Documents/Projets/Unity Workspace/packages/unity_toastapp_mvvm_binding_navigation",
     "com.toastapp.toolbox": "https://github.com/JeromeGsq/unity_toastapp_toolbox.git#version-1.0.1",
@@ -22,6 +21,8 @@
     "com.unity.textmeshpro": "2.0.1",
     "com.unity.timeline": "1.2.12",
     "com.unity.ugui": "1.0.0",
+    "com.xeleh.enhancer": "https://github.com/xeleh/enhancer.git",
+    "jillejr.newtonsoft.json-for-unity": "12.0.201",
     "com.unity.modules.ai": "1.0.0",
     "com.unity.modules.androidjni": "1.0.0",
     "com.unity.modules.animation": "1.0.0",
@@ -55,6 +56,10 @@
     "com.unity.modules.xr": "1.0.0"
   },
   "lock": {
+    "com.xeleh.enhancer": {
+      "revision": "HEAD",
+      "hash": "4845f33af1880125e6b4f63c66015e1358cba9c4"
+    },
     "com.toastapp.folder_structure_generator": {
       "revision": "HEAD",
       "hash": "68c888fd659bf96f91274f0b82d30af3acd76242"

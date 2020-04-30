@@ -9,7 +9,7 @@ public static class StreamingAssetsLoader
     public static IEnumerator LoadSprite(string filePath, Action<Sprite> onComplete)
     {
         var path = Path.Combine(Application.streamingAssetsPath, filePath);
-        Debug.Log(path);
+        // Debug.Log(path);
         using (var request = UnityWebRequest.Get(path))
         {
             yield return request.SendWebRequest();
@@ -33,7 +33,7 @@ public static class StreamingAssetsLoader
     public static IEnumerator LoadTexture2D(string filePath, Action<Texture2D> onComplete)
     {
         var path = Path.Combine(Application.streamingAssetsPath, filePath);
-        Debug.Log(path);
+        // Debug.Log(path);
         using (var request = UnityWebRequest.Get(path))
         {
             yield return request.SendWebRequest();

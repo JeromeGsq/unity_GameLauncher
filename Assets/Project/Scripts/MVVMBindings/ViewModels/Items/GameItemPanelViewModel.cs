@@ -45,6 +45,7 @@ public class GameItemPanelViewModel : MainViewModel
         if (this.Parameters != null && this.Parameters is GameItemData)
         {
             this.gameItemData = (GameItemData)this.Parameters;
+            this.RaiseAllPropertyChanged(typeof(GameItemPanelViewModel));
         }
 
         this.UpdateImages();

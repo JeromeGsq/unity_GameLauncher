@@ -13,7 +13,7 @@ public class GamesViewModel : BaseViewModel
         set => this.Set(ref this.gameItemDatas, value, nameof(this.GameItemDatas));
     }
 
-    private void OnEnable()
+    private void Start()
     {
         var list = new List<GameItemData>();
         list.Add(new GameItemData

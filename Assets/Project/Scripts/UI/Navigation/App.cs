@@ -7,10 +7,21 @@ public class App : MonoBehaviour
 {
     protected void Start()
     {
-        CultureInfo ci = new CultureInfo("fr-FR");
+        var ci = new CultureInfo("fr-FR");
         Thread.CurrentThread.CurrentCulture = ci;
         Thread.CurrentThread.CurrentUICulture = ci;
 
+        Application.targetFrameRate = 60;
+
         NavigationService.Get.ShowViewModel(typeof(SplashViewModel));
+    }
+
+    private void OnApplicationFocus(bool focus)
+    {
+        Application.targetFrameRate = focus ? 60 : 1;
+
+#if UNITY_EDITOR
+        Application.targetFrameRate = 60;
+#endif
     }
 }

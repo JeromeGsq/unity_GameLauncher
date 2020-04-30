@@ -116,10 +116,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85b206c8947ee524d996ecccb153c601, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  uiSelectableManager: {fileID: 4276693775863950505}
   gameItemPanelPrefab: {fileID: 2944379363770339485, guid: 57c94a8d9b12d9e4baff5e5be22c5568,
     type: 3}
-  uiSelectableManager: {fileID: 4276693775863950505}
   root: {fileID: 4418032368020465087}
+  scrollRect: {fileID: 7646957776309662343}
 --- !u!114 &4276693775863950505
 MonoBehaviour:
   m_ObjectHideFlags: 0
