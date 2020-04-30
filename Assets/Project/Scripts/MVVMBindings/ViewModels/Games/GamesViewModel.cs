@@ -41,6 +41,42 @@ public class GamesViewModel : BaseViewModel
             FileName = "re3",
         });
 
+        list.Add(new GameItemData
+        {
+            Title = "Resident Evil 3 (2020)",
+            FileName = "re3",
+        });
+
+        list.Add(new GameItemData
+        {
+            Title = "Resident Evil 3 (2020)",
+            FileName = "re3",
+        });
+
+        list.Add(new GameItemData
+        {
+            Title = "Resident Evil 3 (2020)",
+            FileName = "re3",
+        });
+
+        list.Add(new GameItemData
+        {
+            Title = "Resident Evil 3 (2020)",
+            FileName = "re3",
+        });
+
+        list.Add(new GameItemData
+        {
+            Title = "Resident Evil 3 (2020)",
+            FileName = "re3",
+        });
+
+        list.Add(new GameItemData
+        {
+            Title = "Resident Evil 3 (2020)",
+            FileName = "re3",
+        });
+
         this.GameItemDatas = list;
     }
 }

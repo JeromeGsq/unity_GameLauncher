@@ -13,6 +13,9 @@ public class App : MonoBehaviour
 
         Application.targetFrameRate = 60;
 
+        Cursor.lockState = CursorLockMode.Locked;
+        Cursor.visible = false;
+
         NavigationService.Get.ShowViewModel(typeof(SplashViewModel));
     }
 
@@ -22,6 +25,7 @@ public class App : MonoBehaviour
 
 #if UNITY_EDITOR
         Application.targetFrameRate = 60;
+
 #endif
     }
 }

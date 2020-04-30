@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿#if UNITY_EDITOR
+using System.Collections;
 using System.Collections.Generic;
 using UnityEditor;
 using UnityEditor.SceneManagement;
@@ -44,3 +45,4 @@ public class MVVMViewsQuickViewer : EditorWindow
         EditorGUILayout.EndScrollView();
     }
 }
+#endif
