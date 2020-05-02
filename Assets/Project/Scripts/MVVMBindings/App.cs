@@ -13,19 +13,20 @@ public class App : MonoBehaviour
 
         Application.targetFrameRate = 60;
 
+#if !UNITY_EDITOR
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
+#endif
 
         NavigationService.Get.ShowViewModel(typeof(SplashViewModel));
     }
 
     private void OnApplicationFocus(bool focus)
     {
-        Application.targetFrameRate = focus ? 60 : 1;
-
-#if UNITY_EDITOR
+#if !UNITY_EDITOR
+     Application.targetFrameRate = focus ? 60 : 1;
+#else
         Application.targetFrameRate = 60;
-
 #endif
     }
 }

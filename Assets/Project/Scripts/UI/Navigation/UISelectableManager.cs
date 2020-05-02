@@ -11,17 +11,12 @@ public class UISelectableManager : MonoBehaviour
     private bool canMove = false;
 
     [SerializeField]
-    private UISelectable focusedSelectable;
+    private UISelectable defaultFocusedSelectable;
 
     private UISelectable focusedButton;
     public UISelectable FocusedButton { get => this.focusedButton; set => this.focusedButton = value; }
 
-    public static Action<UISelectable> OnButtonFocusChanged { get; set; }
-
-    private static void ResetAllFocus()
-    {
-        OnButtonFocusChanged?.Invoke(null);
-    }
+    public Action<UISelectable> OnButtonFocusChanged { get; set; }
 
     private void Awake()
     {
@@ -39,21 +34,18 @@ public class UISelectableManager : MonoBehaviour
             }
         }
 
-        if (this.focusedSelectable == null)
+        if (this.defaultFocusedSelectable == null)
         {
             this.FocusedButton = this.GetComponentInChildren<UISelectable>();
         }
         else
         {
-            this.FocusedButton = focusedSelectable;
+            this.FocusedButton = this.defaultFocusedSelectable;
         }
     }
 
     public void OnEnable()
     {
-        // Reset all focused from other UISelectableManagers
-        UISelectableManager.ResetAllFocus();
-
         this.DelaySeconds(() =>
         {
             this.canMove = true;
@@ -82,9 +74,19 @@ public class UISelectableManager : MonoBehaviour
         this.ListenEvents(gamepadState);
     }
 
-    public void Reset()
+    public void GainFocus()
     {
-        this.MoveFocusTo(this.focusedSelectable);
+        this.canMove = true;
+    }
+
+    public void LoseFocus()
+    {
+        this.canMove = false;
+    }
+
+    public void ResumeFocusOnLastSelectable()
+    {
+        this.MoveFocusTo(this.FocusedButton);
     }
 
     protected void MoveFocusTo(Selectable newFocusedSelectable)
@@ -92,7 +94,8 @@ public class UISelectableManager : MonoBehaviour
         this.canMove = false;
         if (newFocusedSelectable != null)
         {
-            OnButtonFocusChanged?.Invoke(newFocusedSelectable as UISelectable);
+            this.OnButtonFocusChanged?.Invoke(newFocusedSelectable as UISelectable);
+            this.FocusedButton = (newFocusedSelectable as UISelectable);
         }
 
         this.DelaySeconds(() => this.canMove = true, 0.05f, true);
@@ -100,8 +103,8 @@ public class UISelectableManager : MonoBehaviour
 
     public void AssignDefaultSelectable(UISelectable uiSelectable)
     {
-        this.focusedSelectable = uiSelectable;
-        this.FocusedButton = this.focusedSelectable;
+        this.defaultFocusedSelectable = uiSelectable;
+        this.FocusedButton = uiSelectable;
     }
 
     protected virtual void ListenEvents(InputDevice gamepadState)

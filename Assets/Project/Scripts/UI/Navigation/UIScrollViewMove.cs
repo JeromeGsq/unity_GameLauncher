@@ -9,6 +9,8 @@ public class UIScrollViewMove : MonoBehaviour
 {
     private ScrollRect scrollRect;
 
+    private float normalizePosition;
+
     [SerializeField]
     private float speed = 2;
 
@@ -19,17 +21,26 @@ public class UIScrollViewMove : MonoBehaviour
 
     private void Update()
     {
-        if (EventSystem.current?.currentSelectedGameObject?.transform?.GetSiblingIndex() != null)
+        try
         {
-            float normalizePosition =
-                (float)EventSystem.current.currentSelectedGameObject.transform.GetSiblingIndex() /
-             ((float)this.scrollRect.content.transform.childCount - 1);
+            var selected = EventSystem.current?.currentSelectedGameObject?.transform;
+            if (selected != null && selected.parent == this.scrollRect.content.transform)
+            {
+                var index = selected.GetSiblingIndex();
 
-            this.scrollRect.horizontalNormalizedPosition =
-                Mathf.Lerp(
-                    this.scrollRect.horizontalNormalizedPosition,
-                    normalizePosition,
-                    Time.deltaTime * this.speed);
+                this.normalizePosition = (float)index / ((float)this.scrollRect.content.transform.childCount - 1);
+
+                this.scrollRect.horizontalNormalizedPosition =
+                     Mathf.Lerp(
+                         this.scrollRect.horizontalNormalizedPosition,
+                          this.normalizePosition,
+                         Time.deltaTime * this.speed);
+            }
+
+        }
+        catch (System.Exception e)
+        {
+            Debug.Log("UIScrollViewMove : Update() : Skip normalizePosition calculation. Is EventSystem.current?.currentSelectedGameObject null ?");
         }
     }
 }

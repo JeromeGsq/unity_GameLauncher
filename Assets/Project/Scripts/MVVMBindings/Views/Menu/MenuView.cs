@@ -68,6 +68,9 @@ public class MenuView : BaseView<MenuViewModel>
         this.appsView.gameObject.SetActive(false);
         this.settingsView.gameObject.SetActive(false);
         this.shutdownPanel.SetActive(false);
+
+        this.gamesView.GainFocus();
+        this.gamesView.ResumeFocusOnLastSelectable();
     }
 
     public void ShowAppsView()
@@ -76,6 +79,8 @@ public class MenuView : BaseView<MenuViewModel>
         this.appsView.gameObject.SetActive(true);
         this.settingsView.gameObject.SetActive(false);
         this.shutdownPanel.SetActive(false);
+
+        this.appsView.Focus();
     }
 
     public void ShowSettingsView()
@@ -84,13 +89,13 @@ public class MenuView : BaseView<MenuViewModel>
         this.appsView.gameObject.SetActive(false);
         this.settingsView.gameObject.SetActive(true);
         this.shutdownPanel.SetActive(false);
+
+        this.settingsView.Focus();
     }
 
     public void ShowShutdownPanel()
     {
-        this.gamesView.gameObject.SetActive(false);
-        this.appsView.gameObject.SetActive(false);
-        this.settingsView.gameObject.SetActive(false);
+        this.gamesView.LoseFocus();
         this.shutdownPanel.SetActive(true);
     }
 
@@ -110,5 +115,10 @@ public class MenuView : BaseView<MenuViewModel>
     public void Shutdown()
     {
         Process.Start("shutdown", "/s /t 0");
+    }
+
+    public void Reboot()
+    {
+        Process.Start("reboot", "/r /t 0");
     }
 }
