@@ -786,7 +786,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Texture: {fileID: 2800000, guid: 3ed5715a00675634c905b7478e85d59c, type: 3}
+  m_Texture: {fileID: 2800000, guid: 165eb7a5503c9e7468536401acaf37c2, type: 3}
   m_UVRect:
     serializedVersion: 2
     x: 0
@@ -10891,7 +10891,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a7ae4956b7de222409b4040e2aca8ffa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wallpaper: {fileID: 2800000, guid: 3ed5715a00675634c905b7478e85d59c, type: 3}
+  wallpaper: {fileID: 2800000, guid: 165eb7a5503c9e7468536401acaf37c2, type: 3}
 --- !u!223 &5599715610100572446
 Canvas:
   m_ObjectHideFlags: 0

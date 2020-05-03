@@ -66,6 +66,8 @@ public class GameItemPanelViewModel : MainViewModel
 
             process.WaitForExit();
             process.Close();
+
+            App.Instance.LaunchGame();
         }
     }
 

@@ -30,7 +30,7 @@ public class GamesViewModel : BaseViewModel
     {
         this.StartCoroutine(
             StreamingAssetsLoader.LoadJson<GameItemData[]>(
-                "config.json",
+                "games.json",
                 (list) =>
                 {
                     this.GameItemDatas = new List<GameItemData>(list);

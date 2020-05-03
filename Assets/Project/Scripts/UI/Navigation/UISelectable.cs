@@ -44,7 +44,11 @@ public class UISelectable : Selectable, ISelectHandler
             this.Left = this.selectable.navigation.selectOnLeft;
             this.Right = this.selectable.navigation.selectOnRight;
         }
-        this.buttonManager.OnButtonFocusChanged += this.UpdateFocus;
+
+        if (this.buttonManager != null)
+        {
+            this.buttonManager.OnButtonFocusChanged += this.UpdateFocus;
+        }
 
         this.UpdateFocus(this.buttonManager?.FocusedButton);
     }
@@ -86,8 +90,9 @@ public class UISelectable : Selectable, ISelectHandler
     protected override void OnDestroy()
     {
         base.OnDestroy();
-        this.buttonManager.OnButtonFocusChanged -= this.UpdateFocus;
+        if (this.buttonManager != null)
+        {
+            this.buttonManager.OnButtonFocusChanged -= this.UpdateFocus;
+        }
     }
 }
-
-
