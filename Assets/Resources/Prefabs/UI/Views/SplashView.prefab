@@ -183,7 +183,7 @@ MonoBehaviour:
   m_enableWordWrapping: 1
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
-  m_firstOverflowCharacterIndex: 2
+  m_firstOverflowCharacterIndex: -1
   m_linkedTextComponent: {fileID: 0}
   m_isLinkedTextComponent: 0
   m_isTextTruncated: 0
@@ -209,12 +209,12 @@ MonoBehaviour:
     textComponent: {fileID: 6366509845776533285}
     characterCount: 4
     spriteCount: 0
-    spaceCount: 0
+    spaceCount: 1
     wordCount: 2
     linkCount: 0
     lineCount: 1
     pageCount: 1
-    materialCount: 2
+    materialCount: 1
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_spriteAnimator: {fileID: 0}
@@ -731,8 +731,9 @@ GameObject:
   m_Component:
   - component: {fileID: 8820581009023043775}
   - component: {fileID: 5949795811915830079}
-  - component: {fileID: 4823775295849865987}
+  - component: {fileID: 1163070022315600742}
   - component: {fileID: 6829404166473198983}
+  - component: {fileID: 2693176242090529817}
   m_Layer: 5
   m_Name: Background
   m_TagString: Untagged
@@ -767,7 +768,7 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1206741481270568766}
   m_CullTransparentMesh: 0
---- !u!114 &4823775295849865987
+--- !u!114 &1163070022315600742
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -776,7 +777,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1206741481270568766}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Script: {fileID: 11500000, guid: 1344c3c82d62a2a41a3576d8abb8e3ea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
@@ -785,16 +786,13 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 586032799c21b5a46960af5227d5e9ef, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
+  m_Texture: {fileID: 2800000, guid: 3ed5715a00675634c905b7478e85d59c, type: 3}
+  m_UVRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
 --- !u!114 &6829404166473198983
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -900,6 +898,22 @@ MonoBehaviour:
   optionalRotationMode: 0
   optionalScrambleMode: 0
   optionalString: 
+--- !u!114 &2693176242090529817
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1206741481270568766}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c17a4101bcc9c24bb4f6db73a89a679, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  viewAdapterTypeName: 
+  viewAdapterOptions: {fileID: 0}
+  viewModelPropertyName: SplashViewModel.Wallpaper
+  viewPropertyName: UnityEngine.UI.RawImage.texture
 --- !u!1 &1387172804597009925
 GameObject:
   m_ObjectHideFlags: 0
@@ -10877,6 +10891,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a7ae4956b7de222409b4040e2aca8ffa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  wallpaper: {fileID: 2800000, guid: 3ed5715a00675634c905b7478e85d59c, type: 3}
 --- !u!223 &5599715610100572446
 Canvas:
   m_ObjectHideFlags: 0

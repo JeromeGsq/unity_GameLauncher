@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using UnityWeld.Binding;
+using Newtonsoft.Json;
 
 [Binding]
 public class GamesViewModel : BaseViewModel
@@ -27,39 +28,17 @@ public class GamesViewModel : BaseViewModel
 
     private void Start()
     {
-        var list = new List<GameItemData>();
-
-        #region Fill list
-        list.Add(new GameItemData
-        {
-            Title = "Resident Evil 0: HD Remaster",
-            FileName = "re0",
-            ExecutableLink = "steam://rungameid/339340"
-        });
-
-        list.Add(new GameItemData
-        {
-            Title = "Resident Evil: HD Remaster",
-            FileName = "re1",
-        });
-
-        list.Add(new GameItemData
-        {
-            Title = "Resident Evil 2 (2019)",
-            FileName = "re2",
-        });
-
-        list.Add(new GameItemData
-        {
-            Title = "Resident Evil 3 (2020)",
-            FileName = "re3",
-        });
-        #endregion
-
-        this.GameItemDatas = list;
-
-        this.RefreshGamesOrder();
-        this.OrderTypeName = this.FormatOrderTypeName();
+        this.StartCoroutine(
+            StreamingAssetsLoader.LoadJson<GameItemData[]>(
+                "config.json",
+                (list) =>
+                {
+                    this.GameItemDatas = new List<GameItemData>(list);
+                    this.OrderTypeName = this.FormatOrderTypeName();
+                    this.RefreshGamesOrder();
+                }
+            )
+        );
     }
 
     public void IncrementOrderType()
@@ -104,10 +83,10 @@ public class GamesViewModel : BaseViewModel
         switch (this.OrderType)
         {
             case OrderTypeEnum.Name:
-                type = "Name";
+                type = "Title";
                 break;
             case OrderTypeEnum.ReverseName:
-                type = "Reverse name";
+                type = "Reverse title";
                 break;
             case OrderTypeEnum.Random:
                 type = "Random";

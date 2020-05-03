@@ -4,33 +4,35 @@ using UnityWeld.Binding;
 [Binding]
 public class GameItemPanelViewModel : MainViewModel
 {
-    private Sprite cover;
-    private Sprite background;
-    private Sprite icon;
+    [SerializeField]
+    private Texture cover;
+    [SerializeField]
+    private Texture background;
+    [SerializeField]
+    private Texture icon;
 
     private GameItemData gameItemData;
 
     [Binding]
-    public Sprite Cover
+    public Texture Cover
     {
         get => this.cover;
         set => this.Set(ref this.cover, value, nameof(this.Cover));
     }
 
     [Binding]
-    public Sprite Background
+    public Texture Background
     {
         get => this.background;
         set => this.Set(ref this.background, value, nameof(this.Background));
     }
 
     [Binding]
-    public Sprite Icon
+    public Texture Icon
     {
         get => this.icon;
         set => this.Set(ref this.icon, value, nameof(this.Icon));
     }
-
 
     [Binding]
     public string Title => this.gameItemData?.Title ?? string.Empty;
@@ -80,21 +82,21 @@ public class GameItemPanelViewModel : MainViewModel
         var iconPath = $"Images/Icons/{this.gameItemData?.FileName}.png";
 
         this.StartCoroutine(
-            StreamingAssetsLoader.LoadSprite(
+            StreamingAssetsLoader.LoadTexture2D(
                 coverPath,
                 (image) => this.Cover = image
             )
         );
 
         this.StartCoroutine(
-            StreamingAssetsLoader.LoadSprite(
+            StreamingAssetsLoader.LoadTexture2D(
                 backgroundPath,
                 (image) => this.Background = image
             )
         );
 
         this.StartCoroutine(
-            StreamingAssetsLoader.LoadSprite(
+            StreamingAssetsLoader.LoadTexture2D(
                 iconPath,
                 (image) => this.Icon = image
             )

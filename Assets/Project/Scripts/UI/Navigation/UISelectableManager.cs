@@ -89,6 +89,11 @@ public class UISelectableManager : MonoBehaviour
         this.MoveFocusTo(this.FocusedButton);
     }
 
+    public void ResumeFocusOnDefaultSelectable()
+    {
+        this.MoveFocusTo(this.defaultFocusedSelectable);
+    }
+
     protected void MoveFocusTo(Selectable newFocusedSelectable)
     {
         this.canMove = false;
