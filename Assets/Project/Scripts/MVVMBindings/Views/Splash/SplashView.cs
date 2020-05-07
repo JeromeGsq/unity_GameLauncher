@@ -1,6 +1,6 @@
 using DG.Tweening;
 using InControl;
-using System.Collections.Generic;
+using SuperBlur;
 using System.ComponentModel;
 using Toastapp.MVVM;
 using UnityEngine;
@@ -10,7 +10,6 @@ using UnityEngine.UI;
 public class SplashView : BaseView<SplashViewModel>
 {
     private bool hasFocus;
-    private Material blurPanelMaterial;
 
     [SerializeField]
     private DOTweenAnimation fadeAnimation;
@@ -20,11 +19,6 @@ public class SplashView : BaseView<SplashViewModel>
 
     [SerializeField]
     private DOTweenAnimation unlockAnimation;
-
-    [Space]
-
-    [SerializeField]
-    private Image blurPanel;
 
     [Space]
 
@@ -39,9 +33,7 @@ public class SplashView : BaseView<SplashViewModel>
         base.Awake();
         this.CanvasGroup.alpha = 1;
 
-        this.blurPanelMaterial = Instantiate(this.blurPanel.material);
-        this.blurPanel.material = this.blurPanelMaterial;
-        this.blurPanelMaterial.SetBlurValue(0, 0);
+        SuperBlurBase.Instance.SetInterpolation(0);
     }
 
     protected override void OnEnable()
@@ -83,15 +75,17 @@ public class SplashView : BaseView<SplashViewModel>
         this.scaleAnimation?.tween?.PlayForward();
         this.unlockAnimation?.tween?.PlayForward();
 
-        this.blurPanelMaterial.SetBlurValue(16);
-
         AudioManager.Instance.PlayOneShot(this.unlockSound);
 
-        this.DelaySeconds(() =>
-        {
-            NavigationService.Get.ShowViewModel(typeof(MenuViewModel), hidePreviousView: false);
-        }, 0.4f);
-
+        DOTween.To(() =>
+           SuperBlurBase.Instance.interpolation,
+            x => SuperBlurBase.Instance.SetInterpolation(x),
+            1,
+            0.4f
+        ).OnComplete(() =>
+            NavigationService.Get.ShowViewModel(typeof(MenuViewModel),
+            hidePreviousView: false)
+        );
     }
 
     private void Resume()
@@ -102,7 +96,12 @@ public class SplashView : BaseView<SplashViewModel>
         this.scaleAnimation?.tween?.PlayBackwards();
         this.unlockAnimation?.tween?.PlayBackwards();
 
-        this.blurPanelMaterial.SetBlurValue(0);
+        DOTween.To(() =>
+           SuperBlurBase.Instance.interpolation,
+            x => SuperBlurBase.Instance.SetInterpolation(x),
+            0,
+            0.4f
+        );
 
         AudioManager.Instance.PlayOneShot(this.unlockReverseSound);
     }
