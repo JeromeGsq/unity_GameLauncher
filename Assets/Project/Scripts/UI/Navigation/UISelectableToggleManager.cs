@@ -7,16 +7,16 @@ using UnityEngine.UI;
 [RequireComponent(typeof(ToggleGroup))]
 public class UISelectableToggleManager : MonoBehaviour
 {
-    private ToggleGroup toggleGroup;
-
     private List<UISelectableToggle> toggles;
 
     [SerializeField]
     private UISelectableToggle firstSelected;
 
+    [SerializeField]
+    private ScrollRect scrollRect;
+
     private void Awake()
     {
-        this.toggleGroup = this.GetComponent<ToggleGroup>();
         this.toggles = new List<UISelectableToggle>(this.transform.GetComponentsInChildren<UISelectableToggle>());
     }
 
@@ -31,6 +31,13 @@ public class UISelectableToggleManager : MonoBehaviour
     private void Update()
     {
         var gamepadState = InputManager.ActiveDevice;
+
+        this.scrollRect.horizontalNormalizedPosition =
+            Mathf.Lerp(
+                this.scrollRect.horizontalNormalizedPosition,
+                (float)(this.toggles.Single(w => w.isOn).transform.GetSiblingIndex()) / (float)((this.scrollRect.content.transform.childCount - 1)),
+                Time.deltaTime * 10
+            );
 
         for (int i = 0; i < this.toggles.Count; i++)
         {

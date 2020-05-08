@@ -1,37 +1,62 @@
 [
     {
-        "title": "Resident Evil 0 HD Remaster",
-        "fileName": "re0",
-        "executableLink": "steam://rungameid/339340"
+        "category": "Resident Evil",
+        "items": [
+            {
+                "title": "Resident Evil 0 HD Remaster",
+                "fileName": "re0",
+                "executableLink": "steam://rungameid/339340"
+            },
+            {
+                "title": "Resident Evil 1 HD Remaster",
+                "fileName": "re1",
+                "executableLink": "steam://rungameid/304240"
+            },
+            {
+                "title": "Resident Evil 2 Remake",
+                "fileName": "re2",
+                "executableLink": ""
+            },
+            {
+                "title": "Resident Evil 3 Remake",
+                "fileName": "re3",
+                "executableLink": ""
+            },
+            {
+                "title": "Resident Evil 4 HD",
+                "fileName": "re4",
+                "executableLink": ""
+            },
+            {
+                "title": "Resident Evil 5",
+                "fileName": "re5",
+                "executableLink": ""
+            },
+            {
+                "title": "Resident Evil 6",
+                "fileName": "re6",
+                "executableLink": ""
+            }
+        ]
     },
     {
-        "title": "Resident Evil 1 HD Remaster",
-        "fileName": "re1",
-        "executableLink": "steam://rungameid/304240"
+        "category": "Wii U",
+        "items": [
+            {
+                "title": "Zelda Breath of the Wild",
+                "fileName": "zelda_botw",
+                "executableLink": ""
+            }
+        ]
     },
     {
-        "title": "Resident Evil 2 Remake",
-        "fileName": "re2",
-        "executableLink": ""
-    },
-    {
-        "title": "Resident Evil 3 Remake",
-        "fileName": "re3",
-        "executableLink": ""
-    },
-    {
-        "title": "Resident Evil 4 HD",
-        "fileName": "re4",
-        "executableLink": ""
-    },
-    {
-        "title": "Resident Evil 5",
-        "fileName": "re5",
-        "executableLink": ""
-    },
-    {
-        "title": "Resident Evil 6",
-        "fileName": "re6",
-        "executableLink": ""
+        "category": "GameCube",
+        "items": [
+            {
+                "title": "Super Mario Sunshine HD",
+                "fileName": "mario_sunshine",
+                "executableLink": ""
+            }
+        ]
     }
 ]

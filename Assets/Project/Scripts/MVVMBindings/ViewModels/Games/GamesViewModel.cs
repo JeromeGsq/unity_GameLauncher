@@ -1,22 +1,22 @@
 using System;
 using System.Collections.Generic;
-using System.Linq;
 using UnityWeld.Binding;
-using Newtonsoft.Json;
 
 [Binding]
 public class GamesViewModel : BaseViewModel
 {
-    private List<GameItemData> gameItemDatas;
+    private const string itemsJsonPath = "games.json";
+
+    private List<CategoryData> categories;
     private string orderTypeName;
 
     public OrderTypeEnum OrderType { get; set; } = OrderTypeEnum.Name;
 
     [Binding]
-    public List<GameItemData> GameItemDatas
+    public List<CategoryData> Categories
     {
-        get => this.gameItemDatas;
-        set => this.Set(ref this.gameItemDatas, value, nameof(this.GameItemDatas));
+        get => this.categories;
+        set => this.Set(ref this.categories, value, nameof(this.Categories));
     }
 
     [Binding]
@@ -29,11 +29,11 @@ public class GamesViewModel : BaseViewModel
     private void Start()
     {
         this.StartCoroutine(
-            StreamingAssetsLoader.LoadJson<GameItemData[]>(
-                "games.json",
+            StreamingAssetsLoader.LoadJson<CategoryData[]>(
+                itemsJsonPath,
                 (list) =>
                 {
-                    this.GameItemDatas = new List<GameItemData>(list);
+                    this.Categories = new List<CategoryData>(list);
                     this.OrderTypeName = this.FormatOrderTypeName();
                     this.RefreshGamesOrder();
                 }
@@ -59,21 +59,23 @@ public class GamesViewModel : BaseViewModel
 
     private void RefreshGamesOrder()
     {
+        /*
         switch (this.OrderType)
         {
             case OrderTypeEnum.Name:
-                this.GameItemDatas = this.GameItemDatas.OrderBy(w => w.Title).ToList();
+                this.Categories = this.Categories.OrderBy(w => w.Title).ToList();
                 break;
             case OrderTypeEnum.ReverseName:
-                this.GameItemDatas = this.GameItemDatas.OrderByDescending(w => w.Title).ToList();
+                this.Categories = this.Categories.OrderByDescending(w => w.Title).ToList();
                 break;
             case OrderTypeEnum.Random:
-                this.GameItemDatas.Shuffle();
-                this.RaisePropertyChanged(nameof(this.GameItemDatas));
+                this.Categories.Shuffle();
+                this.RaisePropertyChanged(nameof(this.Categories));
                 break;
             default:
                 break;
         }
+        */
     }
 
     private string FormatOrderTypeName()
@@ -96,6 +98,6 @@ public class GamesViewModel : BaseViewModel
                 break;
         }
 
-        return $"Order by: {type}";
+        return $"Order by : {type}";
     }
 }

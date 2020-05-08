@@ -9,6 +9,7 @@
     }
   ],
   "dependencies": {
+    "com.coffee.softmask-for-ugui": "https://github.com/mob-sakai/SoftMaskForUGUI.git",
     "com.toastapp.folder_structure_generator": "https://github.com/JeromeGsq/unity_toastapp_folder_structure_generator.git",
     "com.toastapp.mvvm_binding_navigation": "file:C:/Users/Kotasan/Documents/Projets/Unity Workspace/packages/unity_toastapp_mvvm_binding_navigation",
     "com.toastapp.toolbox": "https://github.com/JeromeGsq/unity_toastapp_toolbox.git#version-1.0.1",
@@ -55,6 +56,10 @@
     "com.unity.modules.xr": "1.0.0"
   },
   "lock": {
+    "com.coffee.softmask-for-ugui": {
+      "revision": "HEAD",
+      "hash": "f5f5b7e3413b16a9f9ba8e27fcf7f22a0f82adac"
+    },
     "com.toastapp.folder_structure_generator": {
       "revision": "HEAD",
       "hash": "68c888fd659bf96f91274f0b82d30af3acd76242"

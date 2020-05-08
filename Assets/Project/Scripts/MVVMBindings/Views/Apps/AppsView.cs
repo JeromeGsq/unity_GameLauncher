@@ -4,8 +4,4 @@ using UnityEngine;
 [RequireComponent(typeof(AppsViewModel))]
 public class AppsView : TabsView<AppsViewModel>
 {
-    public void Focus()
-    {
-
-    }
 }

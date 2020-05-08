@@ -34,7 +34,7 @@ public class GamesView : TabsView<GamesViewModel>
         base.Update();
 
         var gamepadState = InputManager.ActiveDevice;
-        if (gamepadState.Square.WasPressed)
+        if (gamepadState.Triangle.WasPressed)
         {
             this.ViewModel.IncrementOrderType();
         }
@@ -44,20 +44,15 @@ public class GamesView : TabsView<GamesViewModel>
     {
         base.OnPropertyChanged(sender, property);
 
-        if (property.PropertyName.Equals(nameof(this.ViewModel.GameItemDatas)))
+        if (property.PropertyName.Equals(nameof(this.ViewModel.Categories)))
         {
             this.RefreshGameItems();
         }
     }
 
-    public void ResumeFocusOnLastSelectable()
-    {
-        this.UISelectableManager.ResumeFocusOnLastSelectable();
-    }
-
     private void RefreshGameItems()
     {
-        if (this.ViewModel?.GameItemDatas == null)
+        if (this.ViewModel?.Categories == null)
         {
             return;
         }
@@ -71,13 +66,16 @@ public class GamesView : TabsView<GamesViewModel>
         }
         this.gameItemPanels.Clear();
 
-        for (int i = 0; i < this.ViewModel.GameItemDatas.Count; i++)
+        for (int i = 0; i < this.ViewModel.Categories.Count; i++)
         {
-            var gameItemData = this.ViewModel.GameItemDatas[i];
-            var gameItemGameObject = Instantiate(gameItemPanelPrefab, this.root);
+            for (int j = 0; j < this.ViewModel.Categories[i].Items.Count; j++)
+            {
+                var gameItemData = this.ViewModel.Categories[i].Items[j];
+                var gameItemGameObject = Instantiate(gameItemPanelPrefab, this.root);
 
-            gameItemGameObject.GetComponent<GameItemPanelViewModel>().SetParameters(gameItemData);
-            this.gameItemPanels.Add(gameItemGameObject);
+                gameItemGameObject.GetComponent<GameItemPanelViewModel>().SetParameters(gameItemData);
+                this.gameItemPanels.Add(gameItemGameObject);
+            }
         }
 
         for (int i = 0; i < this.gameItemPanels.Count; i++)
@@ -104,15 +102,5 @@ public class GamesView : TabsView<GamesViewModel>
             // uiSelectableManager is now ready to assign its FocusedButton and handle events
             this.UISelectableManager.enabled = true;
         }
-    }
-
-    public void GainFocus()
-    {
-        this.UISelectableManager.GainFocus();
-    }
-
-    public void LoseFocus()
-    {
-        this.UISelectableManager.LoseFocus();
     }
 }

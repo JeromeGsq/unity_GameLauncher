@@ -27,20 +27,20 @@ public class UIScrollViewMove : MonoBehaviour
             if (selected != null && selected.parent == this.scrollRect.content.transform)
             {
                 var index = selected.GetSiblingIndex();
-
-                this.normalizePosition = (float)index / ((float)this.scrollRect.content.transform.childCount - 1);
+                this.normalizePosition = (float)index / (float)(this.scrollRect.content.transform.childCount - 1);
 
                 this.scrollRect.horizontalNormalizedPosition =
-                     Mathf.Lerp(
-                         this.scrollRect.horizontalNormalizedPosition,
-                          this.normalizePosition,
-                         Time.deltaTime * this.speed);
+                        Mathf.Lerp(
+                            this.scrollRect.horizontalNormalizedPosition,
+                            normalizePosition,
+                            Time.deltaTime * this.speed
+                        );
             }
 
         }
         catch (System.Exception e)
         {
-            Debug.Log("UIScrollViewMove : Update() : Skip normalizePosition calculation. Is EventSystem.current?.currentSelectedGameObject null ?");
+            Debug.LogWarning("UIScrollViewMove : Update() : Skip normalizePosition calculation. Is EventSystem.current?.currentSelectedGameObject null ?");
         }
     }
 }
