@@ -1,22 +1,32 @@
 using System;
 using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.UI;
 using UnityWeld.Binding;
+using System.Linq;
 
 [Binding]
 public class GamesViewModel : BaseViewModel
 {
     private const string itemsJsonPath = "games.json";
 
-    private List<CategoryData> categories;
     private string orderTypeName;
 
-    public OrderTypeEnum OrderType { get; set; } = OrderTypeEnum.Name;
+    private List<CategoryData> categories;
+    private int categoryIndex;
 
     [Binding]
     public List<CategoryData> Categories
     {
         get => this.categories;
         set => this.Set(ref this.categories, value, nameof(this.Categories));
+    }
+
+    [Binding]
+    public int CategoryIndex
+    {
+        get => this.categoryIndex;
+        set => this.Set(ref this.categoryIndex, value, nameof(this.CategoryIndex));
     }
 
     [Binding]
@@ -34,70 +44,13 @@ public class GamesViewModel : BaseViewModel
                 (list) =>
                 {
                     this.Categories = new List<CategoryData>(list);
-                    this.OrderTypeName = this.FormatOrderTypeName();
-                    this.RefreshGamesOrder();
                 }
             )
         );
     }
 
-    public void IncrementOrderType()
+    public void SelectCategory(string category)
     {
-        var length = Enum.GetValues(typeof(OrderTypeEnum)).Length;
-
-        int index = (int)this.OrderType;
-        index++;
-        if (index >= length)
-        {
-            index = 0;
-        }
-
-        this.OrderType = (OrderTypeEnum)index;
-        this.RefreshGamesOrder();
-        this.OrderTypeName = this.FormatOrderTypeName();
-    }
-
-    private void RefreshGamesOrder()
-    {
-        /*
-        switch (this.OrderType)
-        {
-            case OrderTypeEnum.Name:
-                this.Categories = this.Categories.OrderBy(w => w.Title).ToList();
-                break;
-            case OrderTypeEnum.ReverseName:
-                this.Categories = this.Categories.OrderByDescending(w => w.Title).ToList();
-                break;
-            case OrderTypeEnum.Random:
-                this.Categories.Shuffle();
-                this.RaisePropertyChanged(nameof(this.Categories));
-                break;
-            default:
-                break;
-        }
-        */
-    }
-
-    private string FormatOrderTypeName()
-    {
-        string type = string.Empty;
-
-        switch (this.OrderType)
-        {
-            case OrderTypeEnum.Name:
-                type = "Title";
-                break;
-            case OrderTypeEnum.ReverseName:
-                type = "Reverse title";
-                break;
-            case OrderTypeEnum.Random:
-                type = "Random";
-                break;
-            default:
-                type = "";
-                break;
-        }
-
-        return $"Order by : {type}";
+        this.CategoryIndex = this.Categories.IndexOf(this.Categories.FirstOrDefault(item => item.Category.Equals(category)));
     }
 }

@@ -9,13 +9,13 @@ public class TabsView<T> : BaseView<T> where T : UnityViewModel
 
     protected UISelectableManager UISelectableManager => this.uiSelectableManager;
 
-    public void GainFocus()
+    public virtual void GainFocus()
     {
         this.UISelectableManager?.GainFocus();
         this.UISelectableManager?.ResumeFocusOnLastSelectable();
     }
 
-    public void LoseFocus()
+    public virtual void LoseFocus()
     {
         this.UISelectableManager?.LoseFocus();
     }

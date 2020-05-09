@@ -40,23 +40,62 @@
         ]
     },
     {
-        "category": "Wii U",
+        "category": "The Legend of Zelda",
         "items": [
             {
-                "title": "Zelda Breath of the Wild",
+                "title": "The Legend of Zelda",
+                "fileName": "zelda_nes",
+                "executableLink": ""
+            },
+            {
+                "title": "The Legend of Zelda :\nA Link to the Past",
+                "fileName": "zelda_alttp",
+                "executableLink": ""
+            },
+            {
+                "title": "The Legend of Zelda :\nOcarina of Time",
+                "fileName": "zelda_oot",
+                "executableLink": ""
+            },
+            {
+                "title": "The Legend of Zelda :\nWind Waker",
+                "fileName": "zelda_ww",
+                "executableLink": ""
+            },
+            {
+                "title": "The Legend of Zelda :\nTwilight Princess",
+                "fileName": "zelda_tp",
+                "executableLink": ""
+            },
+            {
+                "title": "The Legend of Zelda :\nBreath of the Wild",
                 "fileName": "zelda_botw",
                 "executableLink": ""
             }
         ]
     },
     {
+        "category": "Wii U",
+        "items": []
+    },
+    {
+        "category": "Wii",
+        "items": []
+    },
+    {
         "category": "GameCube",
-        "items": [
-            {
-                "title": "Super Mario Sunshine HD",
-                "fileName": "mario_sunshine",
-                "executableLink": ""
-            }
-        ]
+        "items": []
+    },
+    {
+        "category": "Nintendo 64",
+        "items": []
+    },
+    {
+        "category": "SuperNES",
+        "items": []
+    },
+    {
+        "category": "NES",
+        "items": []
     }
 ]

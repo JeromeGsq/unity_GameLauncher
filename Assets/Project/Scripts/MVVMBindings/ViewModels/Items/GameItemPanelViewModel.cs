@@ -48,9 +48,9 @@ public class GameItemPanelViewModel : MainViewModel
         {
             this.gameItemData = (GameItemData)this.Parameters;
             this.RaiseAllPropertyChanged(typeof(GameItemPanelViewModel));
-        }
 
-        this.UpdateImages();
+            this.UpdateImages();
+        }
     }
 
     [Binding]

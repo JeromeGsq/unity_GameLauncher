@@ -1,23 +1,26 @@
 ﻿using InControl;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
 using UnityEngine.UI;
 
 [RequireComponent(typeof(ToggleGroup))]
-public class UISelectableToggleManager : MonoBehaviour
+public class UISelectableCategoriesManager : MonoBehaviour
 {
     private List<UISelectableToggle> toggles;
-
     [SerializeField]
     private UISelectableToggle firstSelected;
 
     [SerializeField]
     private ScrollRect scrollRect;
 
+    public ToggleGroup Group { get; set; }
+
     private void Awake()
     {
-        this.toggles = new List<UISelectableToggle>(this.transform.GetComponentsInChildren<UISelectableToggle>());
+        this.Group = this.GetComponent<ToggleGroup>();
+        this.RefreshTogglesList();
     }
 
     private void Start()
@@ -32,10 +35,11 @@ public class UISelectableToggleManager : MonoBehaviour
     {
         var gamepadState = InputManager.ActiveDevice;
 
-        this.scrollRect.horizontalNormalizedPosition =
+        var index = this.toggles?.FirstOrDefault(w => w?.isOn ?? false)?.transform?.GetSiblingIndex() ?? 0;
+        this.scrollRect.verticalNormalizedPosition =
             Mathf.Lerp(
-                this.scrollRect.horizontalNormalizedPosition,
-                (float)(this.toggles?.SingleOrDefault(w => w.isOn)?.transform?.GetSiblingIndex() ?? 0) / (float)((this.scrollRect.content.transform.childCount - 1)),
+                this.scrollRect.verticalNormalizedPosition,
+                (float)(index) / (float)((this.scrollRect.content.transform.childCount - 1)),
                 Time.deltaTime * 10
             );
 
@@ -43,7 +47,7 @@ public class UISelectableToggleManager : MonoBehaviour
         {
             if (this.toggles[i].isOn)
             {
-                if (gamepadState.R1.WasPressed)
+                if (gamepadState.DPadDown.WasPressed || gamepadState.LeftStick.Down.WasPressed)
                 {
                     if (i + 1 >= this.toggles.Count)
                     {
@@ -56,7 +60,7 @@ public class UISelectableToggleManager : MonoBehaviour
                         break;
                     }
                 }
-                else if (gamepadState.L1.WasPressed)
+                else if (gamepadState.DPadUp.WasPressed || gamepadState.LeftStick.Up.WasPressed)
                 {
                     if (i - 1 <= 0)
                     {
@@ -80,5 +84,10 @@ public class UISelectableToggleManager : MonoBehaviour
             this.firstSelected = uiSelectable;
             this.firstSelected.isOn = true;
         }
+    }
+
+    public void RefreshTogglesList()
+    {
+        this.toggles = new List<UISelectableToggle>(this.transform.GetComponentsInChildren<UISelectableToggle>());
     }
 }

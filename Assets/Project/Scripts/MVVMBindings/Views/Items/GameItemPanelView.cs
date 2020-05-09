@@ -9,10 +9,5 @@ using UnityEngine.UI;
 [RequireComponent(typeof(GameItemPanelViewModel))]
 public class GameItemPanelView : BaseView<GameItemPanelViewModel>
 {
-    protected new bool SetAndStretchToParent => false;
-
-    protected override void OnEnable()
-    {
-
-    }
+    protected override bool SetAndStretchToParent => false;
 }

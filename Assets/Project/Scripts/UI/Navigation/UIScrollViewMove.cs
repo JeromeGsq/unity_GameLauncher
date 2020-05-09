@@ -27,7 +27,7 @@ public class UIScrollViewMove : MonoBehaviour
             if (selected != null && selected.parent == this.scrollRect.content.transform)
             {
                 var index = selected.GetSiblingIndex();
-                this.normalizePosition = (float)index / (float)(this.scrollRect.content.transform.childCount - 1);
+                this.normalizePosition = (float)index / ((float)this.scrollRect.content.transform.childCount - 1);
 
                 this.scrollRect.horizontalNormalizedPosition =
                         Mathf.Lerp(
