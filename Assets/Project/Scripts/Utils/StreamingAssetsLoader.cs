@@ -96,6 +96,9 @@ public static class StreamingAssetsLoader
                 {
                     var texture = new Texture2D(2, 2);
                     texture.LoadImage(request.downloadHandler.data);
+                    texture.filterMode = FilterMode.Trilinear;
+                    texture.wrapMode = TextureWrapMode.Mirror;
+                    texture.Apply();
                     if (!cache.ContainsKey(filePath))
                     {
                         cache.Add(filePath, texture);
