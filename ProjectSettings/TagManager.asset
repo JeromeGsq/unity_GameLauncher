@@ -13,8 +13,8 @@ TagManager:
   - UI
   - 
   - 
-  - PostProcessing
-  - UIWorld
+  - 
+  - 
   - 
   - 
   - 
@@ -40,10 +40,4 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
-    locked: 0
-  - name: Splash
-    uniqueID: 135598701
-    locked: 0
-  - name: Menu
-    uniqueID: 2857919333
     locked: 0

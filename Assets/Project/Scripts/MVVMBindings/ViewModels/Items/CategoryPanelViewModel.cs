@@ -19,6 +19,9 @@ public class CategoryPanelViewModel : MainViewModel
         set => this.Set(ref this.title, value, nameof(this.Title));
     }
 
+    [Binding]
+    public Color Color => App.MainColor;
+
     protected override void OnParametersChanged()
     {
         base.OnParametersChanged();

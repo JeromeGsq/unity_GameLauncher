@@ -8,6 +8,11 @@ public class App : SceneSingleton<App>
 {
     private bool gameIsLaunched;
 
+    [SerializeField]
+    private Color color = new Color(0.5f, 0, 0.5f);
+
+    public static Color MainColor;
+
     protected void Start()
     {
         var ci = new CultureInfo("fr-FR");
@@ -15,6 +20,8 @@ public class App : SceneSingleton<App>
         Thread.CurrentThread.CurrentUICulture = ci;
 
         Application.targetFrameRate = 60;
+
+        MainColor = this.color;
 
 #if !UNITY_EDITOR
         Cursor.lockState = CursorLockMode.Locked;
